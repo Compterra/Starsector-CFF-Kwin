@@ -33,9 +33,10 @@ public class KE_YZMarket extends BaseSubmarketPlugin {
             sinceSWUpdate = 0f;
             pruneWeapons(0f);
 
-            int weapons = 4 + Math.max(0, market.getSize()) * 5;
-            int fighterNum = 1 + market.getSize();
-            int hullmods = 1 + market.getSize();
+            int size = Math.max(3, market.getSize());
+            int weapons = 18 + size * 12;
+            int fighterNum = Math.max(1, size / 2);
+            int hullmods = 2 + size;
 
 //            FactionAPI TDB_Market = null;
 //            List<FactionAPI> Factions = Global.getSector().getAllFactions();
@@ -46,23 +47,23 @@ public class KE_YZMarket extends BaseSubmarketPlugin {
 //            }
 
 
-            addFighters(fighterNum, fighterNum, 3, Factions.INDEPENDENT); //min number, max number, max tier, faction id
-            addWeapons(weapons, weapons + 2, 4, "KE_YZCorporation");
+            addFighters(fighterNum, fighterNum + 1, 2, Factions.INDEPENDENT); //min number, max number, max tier, faction id
+            addWeapons(weapons, weapons + 8, 4, "KE_YZCorporation");
             addHullMods(hullmods, hullmods);
 
             getCargo().getMothballedShips().clear();
             FactionDoctrineAPI doctrineOverrided = submarket.getFaction().getDoctrine().clone();
-            doctrineOverrided.setCombatFreighterProbability(0.25f);
-            doctrineOverrided.setShipSize(1);
+            doctrineOverrided.setCombatFreighterProbability(0.15f);
+            doctrineOverrided.setShipSize(2);
 
             // Product ship generation
             addShips(Factions.INDEPENDENT,
-                    30f, // combat
-                    30f, // freighter
-                    30f, // tanker
-                    30f, // transport
-                    30f, // liner
-                    0f, // utilityPts
+                    20f + size * 5f, // combat
+                    10f + size * 3f, // freighter
+                    10f + size * 3f, // tanker
+                    10f + size * 3f, // transport
+                    5f + size * 2f, // liner
+                    5f + size * 2f, // utilityPts
                     null, // qualityOverride
                     0f, // qualityMod
                     FactionAPI.ShipPickMode.PRIORITY_THEN_ALL,//FactionAPI.ShipPickMode modeOverride, at what priority to pick ship in all availables

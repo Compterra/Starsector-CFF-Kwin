@@ -1,6 +1,6 @@
-﻿{
-	"title": "Kwin Live-Fire Trials",
-	"difficulty": "Simulator",
-	"icon":"icon.jpg",
-	"background":"graphics/backgrounds/background5.jpg"
+{
+  "title": "Kwin Live-Fire Trials",
+  "difficulty": "Simulator",
+  "icon": "icon.jpg",
+  "background": "graphics/backgrounds/background5.jpg"
 }

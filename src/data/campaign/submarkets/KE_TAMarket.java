@@ -33,9 +33,10 @@ public class KE_TAMarket extends BaseSubmarketPlugin {
             sinceSWUpdate = 0f;
             pruneWeapons(0f);
 
-            int weapons = 4 + Math.max(0, market.getSize()) * 5;
-            int fighterNum = 1 + market.getSize();
-            int hullmods = 1 + market.getSize();
+            int size = Math.max(3, market.getSize());
+            int weapons = 6 + size * 5;
+            int fighterNum = 3 + size;
+            int hullmods = 2 + size;
 
 //            FactionAPI TDB_Market = null;
 //            List<FactionAPI> Factions = Global.getSector().getAllFactions();
@@ -46,23 +47,23 @@ public class KE_TAMarket extends BaseSubmarketPlugin {
 //            }
 
 
-            addFighters(fighterNum, fighterNum, 3, "KE_TACorporation"); //min number, max number, max tier, faction id
-            addWeapons(weapons, weapons + 2, 3, Factions.INDEPENDENT);
+            addFighters(fighterNum, fighterNum + 3, 3, "KE_TACorporation"); //min number, max number, max tier, faction id
+            addWeapons(weapons, weapons + 3, 3, "KE_TACorporation");
             addHullMods(hullmods, hullmods);
 
             getCargo().getMothballedShips().clear();
             FactionDoctrineAPI doctrineOverrided = submarket.getFaction().getDoctrine().clone();
             doctrineOverrided.setCombatFreighterProbability(0.25f);
-            doctrineOverrided.setShipSize(1);
+            doctrineOverrided.setShipSize(4);
 
             // Product ship generation
             addShips("KE_TACorporation",
-                    100f, // combat
-                    10f, // freighter
-                    10f, // tanker
-                    10f, // transport
-                    10f, // liner
-                    0f, // utilityPts
+                    90f + size * 25f, // combat
+                    10f + size * 5f, // freighter
+                    10f + size * 5f, // tanker
+                    10f + size * 5f, // transport
+                    10f + size * 5f, // liner
+                    10f + size * 5f, // utilityPts
                     null, // qualityOverride
                     0f, // qualityMod
                     FactionAPI.ShipPickMode.PRIORITY_THEN_ALL,//FactionAPI.ShipPickMode modeOverride, at what priority to pick ship in all availables

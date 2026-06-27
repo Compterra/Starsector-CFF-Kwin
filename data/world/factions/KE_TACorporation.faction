@@ -1,4 +1,4 @@
-﻿{
+{
 	id:"KE_TACorporation",
 	"color": [106, 173, 255, 255],
     "baseUIColor": [145, 200, 255, 255],
@@ -56,11 +56,24 @@
 	"knownFighters":{
 		"tags":["KE_TA_I_bp","KE_TA_H_bp","KE_TA_H_bp","KE_TA_T_bp"],
 		"fighters":[
+			"KE_EB_Predator_wing",
+			"KE_TA_Base_wing",
+			"KE_TA_CyanLight_wing",
+			"KE_TA_Dissection_wing",
+			"KE_TA_Net_wing",
+			"KE_TA_Predator_wing",
+			"KE_TA_Spear_wing",
+			"KE_TA_Viper_wing",
 		],
 	},
 	"priorityFighters":{
 		"tags":["KE_TA_I_bp","KE_TA_H_bp","KE_TA_H_bp","KE_TA_T_bp"],
 		"fighters":[
+			"KE_TA_Base_wing",
+			"KE_TA_CyanLight_wing",
+			"KE_TA_Net_wing",
+			"KE_TA_Spear_wing",
+			"KE_TA_Viper_wing",
 		],
 	},
 	"knownWeapons":{

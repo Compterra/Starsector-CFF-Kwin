@@ -36,9 +36,10 @@ public class KE_UEMarket extends BaseSubmarketPlugin {
             sinceSWUpdate = 0f;
             pruneWeapons(0f);
 
-            int weapons = 4 + Math.max(0, market.getSize()) * 5;
-            int fighterNum = 1 + market.getSize();
-            int hullmods = 1 + market.getSize();
+            int size = Math.max(3, market.getSize());
+            int weapons = 5 + size * 4;
+            int fighterNum = 2 + size;
+            int hullmods = 2 + size;
 
 //            FactionAPI TDB_Market = null;
 //            List<FactionAPI> Factions = Global.getSector().getAllFactions();
@@ -49,7 +50,7 @@ public class KE_UEMarket extends BaseSubmarketPlugin {
 //            }
 
 
-            addFighters(fighterNum, fighterNum, 3, Factions.INDEPENDENT); //min number, max number, max tier, faction id
+            addFighters(fighterNum, fighterNum + 2, 3, "KE_UECorporation"); //min number, max number, max tier, faction id
             addWeapons(weapons, weapons + 2, 3, Factions.INDEPENDENT);
             addHullMods(hullmods, hullmods);
 
@@ -60,12 +61,12 @@ public class KE_UEMarket extends BaseSubmarketPlugin {
 
             // Product ship generation
             addShips("KE_UECorporation",
-                    100f, // combat
-                    30f, // freighter
-                    30f, // tanker
-                    30f, // transport
-                    30f, // liner
-                    30f, // utilityPts
+                    70f + size * 15f, // combat
+                    60f + size * 20f, // freighter
+                    30f + size * 10f, // tanker
+                    45f + size * 15f, // transport
+                    45f + size * 15f, // liner
+                    45f + size * 15f, // utilityPts
                     null, // qualityOverride
                     30f, // qualityMod
                     FactionAPI.ShipPickMode.PRIORITY_THEN_ALL,//FactionAPI.ShipPickMode modeOverride, at what priority to pick ship in all availables

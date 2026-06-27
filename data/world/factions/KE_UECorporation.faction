@@ -1,4 +1,4 @@
-﻿{
+{
 	id:"KE_UECorporation",
 	"color": [234, 136, 87, 255],
     "baseUIColor": [245, 185, 125, 255],
@@ -45,22 +45,36 @@
 	"knownShips":{
 		"tags":["KE_UE_L_bp","KE_UE_S_bp","KE_UE_D_bp"],
 		"hulls":[
+			"KE_UE_Cloud",
+			"KE_UE_EveningTea",
+			"KE_UE_Romantic",
+			"KE_UE_Shovel",
+			"KE_UE_Skyline",
+			"KE_UE_Skyward",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
 		"tags":["KE_UE_L_bp","KE_UE_S_bp","KE_UE_D_bp"],
 		"hulls":[
+			"KE_UE_Cloud",
+			"KE_UE_EveningTea",
+			"KE_UE_Romantic",
+			"KE_UE_Shovel",
+			"KE_UE_Skyline",
+			"KE_UE_Skyward",
 		],
 	},
 	"knownFighters":{
 		"tags":["KE_UE_L_bp","KE_UE_S_bp","KE_UE_D_bp"],
 		"fighters":[
+			"KE_TA_Sweep_wing",
 		],
 	},
 	"priorityFighters":{
 		"tags":["KE_UE_L_bp","KE_UE_S_bp","KE_UE_D_bp"],
 		"fighters":[
+			"KE_TA_Sweep_wing",
 		],
 	},
 	"knownWeapons":{

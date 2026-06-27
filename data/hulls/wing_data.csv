@@ -1,4 +1,4 @@
-﻿id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
 #broadsword_wing,broadsword_Fighter,"fighter4, fighter, low, lowtech_bp, merc",0,,6,8,V,4000,500,,3,FIGHTER,Heavy Fighter,10,6000,,,,,,,,,,,,,1
 KE_EB_Predator_wing,KE_EB_Predator_Assault,"fighter8, fighter, KE_TA_H_bp, merc",2,0.1,13,25,V,5000,750,,2,FIGHTER,Elite Fighter,24,25000,,,,,,,,,,,,,103
 KE_TA_Predator_wing,KE_TA_Predator_Assault,"fighter6, fighter, merc",1,0.5,10,16,V,4500,600,,2,FIGHTER,Elite Fighter,18,10000,,,,,,,,,,,,,102

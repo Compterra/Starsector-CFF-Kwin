@@ -22,12 +22,17 @@ import java.awt.*;
 public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationModifier {
 
     public static float BASE_BONUS = 20f;
-    public static float ALPHA_CORE_BONUS = 25f;
-    public static float IMPROVE_BONUS = 25f;
+    public static float ALPHA_CORE_BONUS = 15f;
+    public static float IMPROVE_BONUS = 15f;
+
+    public static float ALPHA_UPKEEP_REDUCTION = 20f;
+    public static float BETA_UPKEEP_REDUCTION = 10f;
+    public static float GAMMA_UPKEEP_REDUCTION = 5f;
 
     public static float STABILITY_PENALTY = 1f;
 
     public static String SPECIALMARKET = "KE_UEMarket";;
+    public static String CORPORATE_FACTION = "KE_UECorporation";
 
     //protected transient CargoAPI savedCargo = null;
     protected transient SubmarketAPI saved = null;
@@ -44,7 +49,7 @@ public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationMo
                 } else {
                     market.addSubmarket(SPECIALMARKET);
                     SubmarketAPI sub = market.getSubmarket(SPECIALMARKET);
-                    sub.setFaction(Global.getSector().getFaction(Factions.INDEPENDENT));
+                    sub.setFaction(Global.getSector().getFaction(CORPORATE_FACTION));
                     Global.getSector().getEconomy().forceStockpileUpdate(market);
                 }
 
@@ -94,6 +99,7 @@ public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationMo
 
 
 
+        market.getStability().unmodifyFlat(getModId());
         market.getIncomeMult().unmodifyPercent(getModId(0));
     }
 
@@ -105,14 +111,13 @@ public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationMo
         String aStr = "+" + (int)Math.round(a * 1f) + "%";
         tooltip.addPara("Colonial income:%s", opad, h, aStr);
 
-//        tooltip.addPara("Stability changes:%s", opad, h, "+" + (int)STABILITY_PENALTY);
+        tooltip.addPara("Stability:%s", opad, h, "+" + (int)STABILITY_PENALTY);
     }
 
     @Override
     protected void addRightAfterDescriptionSection(TooltipMakerAPI tooltip, IndustryTooltipMode mode) {
         if (market.isPlayerOwned() || currTooltipMode == IndustryTooltipMode.ADD_INDUSTRY) {
-            tooltip.addPara("Add a separate corporate branch for colonial owners to conduct business with. "
-                    + "Different companies will provide different results.", 10f);
+            tooltip.addPara("Establishes a chartered Zenith Era liaison office and opens the Crown Trade Center, a procurement channel focused on luxury hulls, expedition craft, civilian logistics ships, and service equipment.", 10f);
         }
     }
 
@@ -124,7 +129,7 @@ public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationMo
     }
 
     public void modifyIncoming(MarketAPI market, PopulationComposition incoming) {
-        incoming.add(Factions.TRITACHYON, 10f);
+        incoming.add(CORPORATE_FACTION, 10f);
     }
 
 
@@ -133,27 +138,45 @@ public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationMo
     }
 
     public String getUnavailableReason() {
-        return "Need an available spaceport!";
+        return "Requires an operational spaceport";
     }
 
     @Override
     public String getCurrentImage() {
-        float size = market.getSize();
-        if (size <= SIZE_FOR_SMALL_IMAGE) {
-            return Global.getSettings().getSpriteName("industry", "commerce_low");
-        }
-        if (size >= SIZE_FOR_LARGE_IMAGE) {
-            return Global.getSettings().getSpriteName("industry", "commerce_high");
-        }
-
-        return super.getCurrentImage();
+        return getSpec().getImageName();
     }
 
 
+    @Override
+    protected void applyAICoreToIncomeAndUpkeep() {
+        if (aiCoreId == null) {
+            getUpkeep().unmodifyMult("ind_core");
+            return;
+        }
+
+        if (Commodities.ALPHA_CORE.equals(aiCoreId)) {
+            getUpkeep().modifyMult("ind_core", 1f - ALPHA_UPKEEP_REDUCTION / 100f, "Alpha Core assigned");
+        } else if (Commodities.BETA_CORE.equals(aiCoreId)) {
+            getUpkeep().modifyMult("ind_core", 1f - BETA_UPKEEP_REDUCTION / 100f, "Beta Core assigned");
+        } else if (Commodities.GAMMA_CORE.equals(aiCoreId)) {
+            getUpkeep().modifyMult("ind_core", 1f - GAMMA_UPKEEP_REDUCTION / 100f, "Gamma Core assigned");
+        } else {
+            getUpkeep().unmodifyMult("ind_core");
+        }
+    }
     //market.getIncomeMult().modifyMult(id, INCOME_MULT, "Industrial planning");
     @Override
     protected void applyAlphaCoreModifiers() {
         market.getIncomeMult().modifyPercent(getModId(1), ALPHA_CORE_BONUS, "Alpha Core (" + getNameForModifier() + ")");
+    }
+    @Override
+    protected void applyBetaCoreModifiers() {
+        applyNoAICoreModifiers();
+    }
+
+    @Override
+    protected void applyGammaCoreModifiers() {
+        applyNoAICoreModifiers();
     }
 
     @Override
@@ -166,13 +189,17 @@ public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationMo
         demandReduction.modifyFlat(getModId(0), DEMAND_REDUCTION, "Alpha core");
     }
 
+    @Override
+    protected void applyGammaCoreSupplyAndDemandModifiers() {
+    }
+
     protected void addAlphaCoreDescription(TooltipMakerAPI tooltip, AICoreDescriptionMode mode) {
         float opad = 10f;
         Color highlight = Misc.getHighlightColor();
 
-        String pre = "Currently allocated Alpha level AI cores. ";
+        String pre = "Currently allocated Alpha-level AI cores. ";
         if (mode == AICoreDescriptionMode.MANAGE_CORE_DIALOG_LIST || mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
-            pre = "Alpha level AI core. ";
+            pre = "Alpha-level AI core. ";
         }
         float a = ALPHA_CORE_BONUS;
         String str = "" + (int) Math.round(a) + "%";
@@ -180,19 +207,62 @@ public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationMo
         if (mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
             CommoditySpecAPI coreSpec = Global.getSettings().getCommoditySpec(aiCoreId);
             TooltipMakerAPI text = tooltip.beginImageWithText(coreSpec.getIconName(), 48);
-            text.addPara(pre + "reduce%sMaintenance costs reduced%sunit requirements. " +
-                            "Increase colonial income%s.", 0f, highlight,
-                    "" + (int)((1f - UPKEEP_MULT) * 100f) + "%", "" + DEMAND_REDUCTION,
+            text.addPara(pre + "reduces upkeep cost by %s, reduces demand by %s unit, and increases colonial income by %s.", 0f, highlight,
+                    "" + (int) ALPHA_UPKEEP_REDUCTION + "%", "" + DEMAND_REDUCTION,
                     str);
             tooltip.addImageWithText(opad);
             return;
         }
 
-        tooltip.addPara(pre + "reduce%sMaintenance costs reduced%sunit requirements. " +
-                        "Increase colonial income%s.", opad, highlight,
-                "" + (int)((1f - UPKEEP_MULT) * 100f) + "%", "" + DEMAND_REDUCTION,
+        tooltip.addPara(pre + "reduces upkeep cost by %s, reduces demand by %s unit, and increases colonial income by %s.", opad, highlight,
+                "" + (int) ALPHA_UPKEEP_REDUCTION + "%", "" + DEMAND_REDUCTION,
                 str);
 
+    }
+    @Override
+    protected void addBetaCoreDescription(TooltipMakerAPI tooltip, AICoreDescriptionMode mode) {
+        float opad = 10f;
+        Color highlight = Misc.getHighlightColor();
+
+        String pre = "Currently allocated Beta-level AI cores. ";
+        if (mode == AICoreDescriptionMode.MANAGE_CORE_DIALOG_LIST || mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
+            pre = "Beta-level AI core. ";
+        }
+
+        if (mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
+            CommoditySpecAPI coreSpec = Global.getSettings().getCommoditySpec(aiCoreId);
+            TooltipMakerAPI text = tooltip.beginImageWithText(coreSpec.getIconName(), 48);
+            text.addPara(pre + "reduces upkeep cost by %s and reduces demand by %s unit.", 0f, highlight,
+                    "" + (int) BETA_UPKEEP_REDUCTION + "%", "" + DEMAND_REDUCTION);
+            tooltip.addImageWithText(opad);
+            return;
+        }
+
+        tooltip.addPara(pre + "reduces upkeep cost by %s and reduces demand by %s unit.", opad, highlight,
+                "" + (int) BETA_UPKEEP_REDUCTION + "%", "" + DEMAND_REDUCTION);
+    }
+
+    @Override
+    protected void addGammaCoreDescription(TooltipMakerAPI tooltip, AICoreDescriptionMode mode) {
+        float opad = 10f;
+        Color highlight = Misc.getHighlightColor();
+
+        String pre = "Currently allocated Gamma-level AI cores. ";
+        if (mode == AICoreDescriptionMode.MANAGE_CORE_DIALOG_LIST || mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
+            pre = "Gamma-level AI core. ";
+        }
+
+        if (mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
+            CommoditySpecAPI coreSpec = Global.getSettings().getCommoditySpec(aiCoreId);
+            TooltipMakerAPI text = tooltip.beginImageWithText(coreSpec.getIconName(), 48);
+            text.addPara(pre + "reduces upkeep cost by %s.", 0f, highlight,
+                    "" + (int) GAMMA_UPKEEP_REDUCTION + "%");
+            tooltip.addImageWithText(opad);
+            return;
+        }
+
+        tooltip.addPara(pre + "reduces upkeep cost by %s.", opad, highlight,
+                "" + (int) GAMMA_UPKEEP_REDUCTION + "%");
     }
 
 
@@ -218,12 +288,13 @@ public class KE_UE_Structure extends BaseIndustry implements MarketImmigrationMo
         String aStr = "" + (int)Math.round(a * 1f) + "%";
 
         if (mode == ImprovementDescriptionMode.INDUSTRY_TOOLTIP) {
-            info.addPara("Increase colonial income%s.", 0f, highlight, aStr);
+            info.addPara("Increases colonial income by %s.", 0f, highlight, aStr);
         } else {
-            info.addPara("Increase colonial income%s.", 0f, highlight, aStr);
+            info.addPara("Increases colonial income by %s.", 0f, highlight, aStr);
         }
 
         info.addSpacer(opad);
         super.addImproveDesc(info, mode);
     }
 }
+

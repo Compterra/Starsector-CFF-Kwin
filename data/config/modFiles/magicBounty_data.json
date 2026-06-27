@@ -1,4 +1,4 @@
-﻿{
+{
 	"KE_LastGlow": {
 		"trigger_marketFaction_any": ["pirates", "independent", "tritachyon"],
         "trigger_marketFaction_alliedWith": false,

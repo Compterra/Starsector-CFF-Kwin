@@ -1,1 +1,21 @@
-{ "baseHullId":"KE_EW_Saker", "skinHullId":"KE_EW_Saker_xiv", "hullName":"Saker (XIV)", "incompatibleWithBaseHull":false, # for the autofit dialog "descriptionId":"KE_EW_Saker_xiv", "descriptionPrefix":"Built to the specifications of the 14th Domain Battlegroup which founded the Hegemony, this vessel is a prime example of the Domain Navy's 'decisive battle' doctrine, particularly exhibited by a series of radical structural modifications performed using pre-Collapse industrial technology.", "tags":["XIV_bp"], "tech":"XIV Battlegroup", "fleetPoints":17, "ordnancePoints":160, "baseValueMult":1.75, "spriteName":"graphics/ships/KE_EW_Saker_XIV.png", "coversColor":[255,255,255,255], "removeWeaponSlots":[], # ids "removeEngineSlots":[], # indices, as engine slots have no id in the.ship file "removeBuiltInMods":[], # hullmod ids "removeBuiltInWeapons":[], # weapon slot ids "builtInMods":["fourteenth"], "builtInWeapons":{ }, }
+{
+  "baseHullId": "KE_EW_Saker",
+  "skinHullId": "KE_EW_Saker_xiv",
+  "hullName": "Saker (XIV)",
+  "incompatibleWithBaseHull": false,
+  "descriptionId": "KE_EW_Saker_xiv",
+  "descriptionPrefix": "Built to the specifications of the 14th Domain Battlegroup which founded the Hegemony, this vessel is a prime example of the Domain Navy's 'decisive battle' doctrine, particularly exhibited by a series of radical structural modifications performed using pre-Collapse industrial technology.",
+  "tags": ["XIV_bp"],
+  "tech": "XIV Battlegroup",
+  "fleetPoints": 17,
+  "ordnancePoints": 160,
+  "baseValueMult": 1.75,
+  "spriteName": "graphics/ships/KE_EW_Saker_XIV.png",
+  "coversColor": [255, 255, 255, 255],
+  "removeWeaponSlots": [],
+  "removeEngineSlots": [],
+  "removeBuiltInMods": [],
+  "removeBuiltInWeapons": [],
+  "builtInMods": ["fourteenth"],
+  "builtInWeapons": {}
+}

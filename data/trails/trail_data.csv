@@ -1,4 +1,4 @@
-﻿trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,randomTextureOffset,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,randomTextureOffset,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
 KE_YZ_Unityshot_trail,KE_YZ_UnityCannon_shot,base_trail_rough,10,0,0.075,0.05,7,3,"[180,92,16]","[134,133,132]",1,120,30,,0,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
 KE_YZ_StagflationBlaster_trail,KE_YZ_StagflationBlaster_shot,base_trail_zapWithCore,10,0,0.05,0.025,7,3,"[182,47,240]","[113,74,218]",1,120,30,,0,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
 KE_YZ_MicroFlakCannon_trail,KE_YZ_MicroFlakCannon_shot,base_trail_fuzzy,10,0,0.025,0.01,7,3,"[179,189,132]","[242,212,120]",1,120,30,,0,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
