@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 1.0.1
+
+- Polished Corporate Charter Offices with unique lore, icons, and differentiated colony storefront identities.
+- Added AI core upkeep support for Charter Offices, including Gamma core upkeep behavior.
+- Expanded and specialized Charter storefront inventories, with Yunze focused as a weapons dealer.
+- Filled missing hull and weapon descriptions and normalized saleable Yunze weapon tiers.
+- Rebuilt the mod jar for Java 8 compatibility and removed the bundled `Kwin.zip` artifact from the repository.
+
 ## Version 1.0.0
 
 - First maintained public GitHub release.

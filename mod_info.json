@@ -1,7 +1,7 @@
 {
 	"id":"KwinExpand",
 	"name": "Kwin's Sector Industry Compilation",
-	"version":{"major":1, "minor":0, "patch":0},
+	"version":{"major":1, "minor":0, "patch":1},
 	"gameVersion":"0.98a",
 	"author":"Kwin",
 	"description": "Adds corporate shipyards, experimental weapons, rare hulls, and sector lore centered on Zenith Era, Flicker Aviation, Monolith Ordnance, Yunze General Ordnance, and their surviving wartime legacies.",
