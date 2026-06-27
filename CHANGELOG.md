@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.0.0
+
+- First maintained public GitHub release.
+- Carries forward the 0.0.4 content base with Codex maintenance fixes, Nexerelin setup, Version Checker/TriOS metadata, weapon hardening, and runtime optimization work.
+
 ## Version 0.0.4
 
 ### Codex maintenance build
