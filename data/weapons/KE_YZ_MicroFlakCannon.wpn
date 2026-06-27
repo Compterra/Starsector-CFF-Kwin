@@ -1,0 +1,29 @@
+{
+	"id":"KE_YZ_MicroFlakCannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":250,
+	"turretSprite":"graphics/weapons/KE_YZ_MicroFlakCannon_T.png",
+	"turretGunSprite":"graphics/fx/empty.png",
+	"hardpointSprite":"graphics/weapons/KE_YZ_MicroFlakCannon.png",
+	"hardpointGunSprite":"graphics/fx/empty.png",
+	"renderHints":[RENDER_BARREL_BELOW],
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[8, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[12, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.15,
+					   "particleCount":7,
+					   "particleColor":[255,240,165,200]},
+	"projectileSpecId":"KE_YZ_MicroFlakCannon_shot",  # projectile that will be fired
+	#"fireSoundOne":"vulcan_cannon_intro",
+	"fireSoundTwo":"vulcan_cannon_fire",
+}

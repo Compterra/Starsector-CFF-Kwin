@@ -1,0 +1,30 @@
+﻿{
+  "variantId": "KE_TA_Spear_Assault",
+  "hullId": "KE_TA_Spear",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_TA_MicroPulse_fighter",
+        "WS0002": "KE_TA_MicroPulse_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "KE_TA_PiezoquartzLauncher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

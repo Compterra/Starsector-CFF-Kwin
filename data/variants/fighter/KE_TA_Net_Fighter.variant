@@ -1,0 +1,23 @@
+﻿{
+  "variantId": "KE_TA_Net_Fighter",
+  "hullId": "KE_TA_Net",
+  "displayName": "Heavy Interceptor",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_YZ_IonPDPulse_fighter",
+        "WS0002": "KE_YZ_IonPDPulse_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

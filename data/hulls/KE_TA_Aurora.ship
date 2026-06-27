@@ -1,0 +1,199 @@
+{
+  "hullName": "Borealis",
+  "hullId": "KE_TA_Aurora",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/KE_TA_Aurora.png",
+  "style": "KE_TA_Company",
+  "height": 279,
+  "width": 157,
+  "center": [78.5, 139.5],
+  "collisionRadius": 172.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 151,
+  "viewOffset": 0,
+  "builtInMods": [
+    "KE_TA_AAirControl"
+  ],  
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 298,
+      "angle": 0,
+      "locations": [73.5, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 73.5,
+      "locations": [-4.5, 20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-58.5, -37.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 148,
+      "angle": 131,
+      "locations": [-103.5, 40.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 148,
+      "angle": 80,
+      "locations": [-36.5, 36.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [32.5, 36.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -84, -16.5,
+        -85.5, -25.5,
+        -86, -37,
+        -105, -36,
+        -103.5, -25.5,
+        -103.5, -16.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -29.5, -26,
+        -30, -16.5,
+        -30, -36.5,
+        -3, -26.5,
+        -3.5, -15.5,
+        -3, -37
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3, 52.5,
+        13, 52.5,
+        -7.5, 52.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -45.5, 52.5,
+        -36.5, 52.5,
+        -25.5, 52.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-86.5, -67],
+      "length": 54.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-86.5, 67],
+      "length": 54.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-133.5, -23],
+      "length": 39,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-135, -0],
+      "length": 33,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-135, 14.5],
+      "length": 33,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-136, 29],
+      "length": 36.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    }
+  ],
+  "bounds": [
+    120.5, 1,
+    119.5, 56,
+    -56, 54,
+    -55.5, 72,
+    -83.5, 73,
+    -129.5, 33.5,
+    -132.5, -30,
+    -83.5, -74.5,
+    79.5, -42,
+    76.5, -8
+  ]
+}

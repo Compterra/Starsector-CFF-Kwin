@@ -1,0 +1,114 @@
+{
+  "hullName": "Evening Tea",
+  "hullId": "KE_UE_EveningTea",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/KE_UE_EveingTea.png",
+  "style": "KE_UE_Company",
+  "height": 194,
+  "width": 104,
+  "center": [52, 97],
+  "collisionRadius": 118,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "KE_UE_Delicacy_StandardMeal",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 168,
+      "angle": -61,
+      "locations": [73, -17]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 168,
+      "angle": 61,
+      "locations": [73, 17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -90,
+      "locations": [-12, -37]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 90,
+      "locations": [-12, 37]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -121,
+      "locations": [-28, -17]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 121,
+      "locations": [-28, 17]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-88.5, 23],
+      "length": 29,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "CUSTOM",
+      "styleId": "KE_UE_Delicacy1"
+    },
+    {
+      "location": [-88.5, -23],
+      "length": 29,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "CUSTOM",
+      "styleId": "KE_UE_Delicacy1"
+    }
+  ],
+  "bounds": [
+    -94, 7,
+    -90, 24,
+    -76, 33,
+    -36.5, 37,
+    -26.5, 45.5,
+    -9.5, 47.5,
+    4, 35,
+    72, 29,
+    90.5, 11,
+    90.5, -11,
+    72, -29,
+    4, -35,
+    -9.5, -47.5,
+    -26.5, -45.5,
+    -36.5, -37,
+    -76, -33,
+    -90, -24,
+    -94, -7
+  ]
+}

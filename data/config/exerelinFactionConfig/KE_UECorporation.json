@@ -1,0 +1,27 @@
+{
+  "playableFaction": false,
+  "startingFaction": false,
+  "enabledByDefault": false,
+  "corvusCompatible": true,
+  "useStrategicAI": false,
+  "showIntelEvenIfDead": false,
+  "noHomeworld": true,
+  "directoryUseShortName": true,
+  "rebelFleetSuffix": "Dissident Service Fleet",
+  "marketSpawnWeight": 0,
+  "colonyExpeditionChance": 0,
+  "specialForcesMaxFleets": 0,
+  "noRandomizeRelations": true,
+  "noSyncRelations": true,
+  "morality": "neutral",
+  "diplomacyTraits": ["neutralist", "lowprofile"],
+  "alignments": {
+    "corporate": 0.9,
+    "technocratic": 0.2,
+    "militarist": -0.2,
+    "diplomatic": 0.4,
+    "ideological": -0.4
+  },
+  "industrySeeds": [],
+  "bonusSeeds": []
+}

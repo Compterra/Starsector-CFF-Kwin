@@ -1,0 +1,65 @@
+{
+  "hullName": "Dustsweeper",
+  "hullId": "KE_TA_Sweep",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_TA_Sweep.png",
+  "style": "KE_TA_Company",
+  "height": 31,
+  "width": 29,
+  "center": [14.5, 15.5],
+  "collisionRadius": 28,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 34,
+      "angle": 0,
+      "locations": [10.5, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, -10],
+      "length": 11,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-13.5, -1.5],
+      "length": 11,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-13.5, 3.5],
+      "length": 11,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-13, 8],
+      "length": 11,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -12, 13,
+    12.5, 13,
+    12.5, -13,
+    -12, -13
+  ]
+}

@@ -1,0 +1,22 @@
+﻿{
+  "variantId": "KE_TA_Viper_Bomber",
+  "hullId": "KE_TA_Viper",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "KE_YZ_ScimitarTorpedo_F"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

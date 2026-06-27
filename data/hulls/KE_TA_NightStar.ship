@@ -1,0 +1,177 @@
+{
+  "hullName": "Night Star",
+  "hullId": "KE_TA_NightStar",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/KE_TA_NightStar.png",
+  "style": "KE_TA_Company",
+  "height": 203,
+  "width": 131,
+  "center": [65.5, 101.5],
+  "collisionRadius": 121,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 111,
+  "viewOffset": 0,
+  "builtInMods": [
+    "KE_TA_NSAirControl"
+  ],  
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [78.5, -31.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 157,
+      "angle": -76,
+      "locations": [30.5, -36.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 255,
+      "angle": -152.5,
+      "locations": [-68.5, -30.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 51.5,
+      "locations": [25.5, 42]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 298,
+      "angle": 90,
+      "locations": [-37.5, 21]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-22.5, 49.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-46.5, 49.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [52.5, 41.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -57.5, 12,
+        -58, 4.5,
+        -57.5, -6,
+        -57.5, -14.5,
+        -64, 3.5,
+        -65.5, -5.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -12.5, 12,
+        -13.5, 3,
+        -15, -6.5,
+        -15.5, -15.5,
+        1, -5,
+        0.5, 3
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-84.5, -52],
+      "length": 18,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-85, 53],
+      "length": 18,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-95.5, 8.5],
+      "length": 37.5,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-95.5, -9.5],
+      "length": 37.5,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    87.5, -17.5,
+    89, 28,
+    56, 27.5,
+    55.5, 51.5,
+    -61, 48.5,
+    -62, 61,
+    -71.5, 62,
+    -93, 40,
+    -98, 22,
+    -97.5, -22,
+    -92, -39,
+    -74, -61,
+    -63.5, -62,
+    -61, -52,
+    -49, -63.5,
+    -17, -62.5,
+    -2, -51,
+    99, -38
+  ]
+}

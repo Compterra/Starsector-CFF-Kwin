@@ -1,0 +1,143 @@
+{
+  "hullName": "Acolyte",
+  "hullId": "KE_EW_Acolyte",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/KE_EW_Acolyte.png",
+  "style": "LOW_TECH",
+  "height": 100,
+  "width": 80,
+  "center": [40, 50],
+  "collisionRadius": 80,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 67.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "KE_EW_BionicAutomation"
+  ],    
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": -60,
+      "locations": [13, -21]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": 60,
+      "locations": [13, 21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 139,
+      "angle": -26,
+      "locations": [-20, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 139,
+      "angle": 26,
+      "locations": [-20, 28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": 0,
+      "locations": [45, -12]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": -0,
+      "locations": [45, 12]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": 0,
+      "locations": [31.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 63,
+      "angle": 0,
+      "locations": [8, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47, 18.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, -18.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43, -0],
+      "length": 56.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, -9.5],
+      "length": 42.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, 9.5],
+      "length": 42.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -46.5, 27,
+    -10, 37,
+    -10, 37,
+    46, 17.5,
+    46, -17.5,
+    -10, -37,
+    -10, -37,
+    -46.5, -27
+  ]
+}

@@ -1,0 +1,4 @@
+Location: Simulator
+Date: Open Exercise
+
+Live-fire evaluation scenario for Kwin's Sector Industry Compilation. Choose ships and weapons freely.

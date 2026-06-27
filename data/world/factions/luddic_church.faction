@@ -1,0 +1,63 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            #"KE_UE_Romantic":0.5, # Uncommon because Heg doesn't usually use Brawlers
+			"KE_TA_Moonlight":0.75,
+            #"swp_sunder_xiv":0.5, # Net chance of 0.125 - very rare!
+
+            #"swp_eagle_black":0.01, # Ultra-rare easter egg
+            #"swp_eagle_white":0.01, # Ultra-rare easter egg
+            #"swp_gryphon_xiv":0.5, # Net chance of 0.125 - very rare!
+            #"swp_vindicator_o":0.1, # Very rare because it's very desirable
+
+            #"swp_conquest_xiv":0.5, # Net chance of 0.125 - very rare!
+            #"swp_liberator":0.5, # Uncommon because this is more of a LC thing
+        },
+    },
+    "knownShips":{
+    "tags":["KE_UE_L_bp","KE_UE_D_bp"],
+        "hulls":[
+            "KE_EW_Acolyte",
+			"KE_EW_Simen",
+			"KE_EW_Exorcism",
+			"KE_EW_Deacon",
+			"KE_EW_Priest",
+			"KE_UE_Skyward",
+        ],
+    },
+    "priorityShips":{
+        "tags":[],
+        "hulls":[
+
+        ],
+    },
+    "knownFighters":{
+        "fighters":[
+        "KE_TA_Viper_wing",
+		"KE_TA_CyanLight_wing",
+		"KE_TA_Base_wing",
+        ],
+    },
+    "knownWeapons":{
+        "tags":[
+            "KE_YZ_Common_bp",
+			"KE_YZ_Siege_bp",
+		],		
+        "weapons":[
+            "KE_YZ_ScimitarTorpedo_S",
+			"KE_YZ_JetTorpedo_S",
+			"KE_YZ_ScimitarTorpedo_M",
+			"KE_YZ_GaleRocket_M",
+        ],
+    },
+    "weaponSellFrequency":{
+        #"swp_tripleflak":5,
+            "KE_YZ_ScimitarTorpedo_S":3,
+			"KE_YZ_JetTorpedo_S":3,
+			"KE_YZ_ScimitarTorpedo_M":3,
+			"KE_YZ_GaleRocket_M":3,
+    },
+    "hullmodSellFrequency":{
+        #"swp_pdconversion":5,
+    },
+},

@@ -1,0 +1,111 @@
+{
+  "hullName": "Predator (Exodyne)",
+  "hullId": "KE_EB_Predator",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_EB_Predator.png",
+  "style": "KE_TA_Company",
+  "height": 54,
+  "width": 50,
+  "center": [25, 27],
+  "collisionRadius": 27.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "KE_TA_BioAssistant"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": 0,
+      "locations": [-2, 6.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": -0,
+      "locations": [-2, -6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, 9.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2, -9.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": 0,
+      "locations": [10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 9],
+      "length": 11,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-15, -9],
+      "length": 11,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-14.5, 11.5],
+      "length": 6.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-14.5, -11.5],
+      "length": 6.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -17, 11,
+    2, 18.5,
+    -2.5, 8.5,
+    19.5, 4.5,
+    19.5, -4.5,
+    -2.5, -8.5,
+    2, -18.5,
+    -17, -11
+  ]
+}

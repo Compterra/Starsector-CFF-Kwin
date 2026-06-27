@@ -1,0 +1,19 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "KE_UE_Skyline",
+    "hullMods": [
+        "augmentedengines",
+        "efficiency_overhaul",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_UE_Skyline_Standard",
+    "weaponGroups": [],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,168 @@
+{
+  "hullName": "Sergeant (TT)",
+  "hullId": "KE_EW_NCO_TT",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/KE_EW_NCO_TT.png",
+  "style": "HIGH_TECH",
+  "height": 102,
+  "width": 84,
+  "center": [42, 51],
+  "collisionRadius": 75.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 65,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "KE_EW_PlasmaGenerator"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 18,
+      "angle": 0,
+      "locations": [41, -23]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 18,
+      "angle": -0,
+      "locations": [41, 23]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 132,
+      "angle": -52,
+      "locations": [8, -21]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 132,
+      "angle": 52,
+      "locations": [8, 21]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 228,
+      "angle": -123.5,
+      "locations": [-20, -22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 228,
+      "angle": 123.5,
+      "locations": [-20, 22]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 18,
+      "angle": -0,
+      "locations": [33, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 228,
+      "angle": 180,
+      "locations": [-30, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43, -24.5],
+      "length": 25.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-43, 24.5],
+      "length": 25.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-43, -19],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-43, 19],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46, -10],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46, 10],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46.5, -5.5],
+      "length": 30.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46.5, 5.5],
+      "length": 30.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -47.5, 10,
+    -46, 36,
+    -42, 41,
+    50, 29,
+    50, -29,
+    -42, -41,
+    -46, -36,
+    -47.5, -10
+  ]
+}

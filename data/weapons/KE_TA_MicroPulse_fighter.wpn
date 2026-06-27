@@ -1,0 +1,29 @@
+{
+	"id":"KE_TA_MicroPulse_fighter",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/KE_YZ_PDPulse.png",
+	"turretGlowSprite":"graphics/fx/empty.png",	
+	"hardpointSprite":"graphics/weapons/KE_YZ_PDPulse.png",
+	"hardpointGlowSprite":"graphics/fx/empty.png",	
+	"glowColor":[255,100,100,255],
+	"turretOffsets":[6, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[10, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":7,
+					   "particleColor":[120,207,243,255]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
+	"projectileSpecId":"KE_TA_MicroPulse_fighter_shot",  # projectile that will be fired
+	"fireSoundTwo":"ir_pulse_laser_fire",
+}

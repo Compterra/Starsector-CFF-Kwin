@@ -1,0 +1,18 @@
+{
+	"id":"KE_EntropyCombatSkill",
+	"governingAptitude":"technology",
+	"compressHullmods":false,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.campaign.skills.KE_EntropyCombatSkill$Level1"},
+				{"type":"SHIP", "script":"data.campaign.skills.KE_EntropyCombatSkill$Level2"},
+				{"type":"SHIP", "script":"data.campaign.skills.KE_EntropyCombatSkill$Level3"},
+				{"type":"SHIP", "script":"data.campaign.skills.KE_EntropyCombatSkill$Level4"},
+			]
+		},
+	],
+}

@@ -1,0 +1,47 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            #"KE_UE_Romantic":0.5, # Uncommon because Heg doesn't usually use Brawlers
+			"KE_UE_Skyward":0.02,
+            #"swp_sunder_xiv":0.5, # Net chance of 0.125 - very rare!
+
+            #"swp_eagle_black":0.01, # Ultra-rare easter egg
+            #"swp_eagle_white":0.01, # Ultra-rare easter egg
+            #"swp_gryphon_xiv":0.5, # Net chance of 0.125 - very rare!
+            #"swp_vindicator_o":0.1, # Very rare because it's very desirable
+
+            #"swp_conquest_xiv":0.5, # Net chance of 0.125 - very rare!
+            #"swp_liberator":0.5, # Uncommon because this is more of a LC thing
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "KE_UE_Shovel",
+			"KE_EW_Pathfinder",
+			"KE_UE_Skyward",
+        ],
+    },
+    "priorityShips":{
+        "tags":[],
+        "hulls":[
+            "KE_UE_Shovel",
+			"KE_EW_Pathfinder",
+        ],
+    },
+    "knownFighters":{
+        "fighters":[
+        "KE_TA_Viper_wing",
+        ],
+    },
+    "knownWeapons":{
+        "weapons":[
+            #"swp_lightphaselance",
+        ],
+    },
+    "weaponSellFrequency":{
+        #"swp_tripleflak":5,
+    },
+    "hullmodSellFrequency":{
+        #"swp_pdconversion":5,
+    },
+},

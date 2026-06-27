@@ -1,0 +1,32 @@
+{
+	"id":"KE_YZ_CorruptionThrower",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"everyFrameEffect":"data.combat.KE_YZ_CorruptionEffect",
+	"turretSprite":"graphics/weapons/KE_YZ_CorruptionThrower.png",
+	"turretGlowSprite":"graphics/weapons/KE_YZ_CorruptionThrower_glow.png",
+	"hardpointSprite":"graphics/weapons/KE_YZ_CorruptionThrower.png",
+	"hardpointGlowSprite":"graphics/weapons/KE_YZ_CorruptionThrower_glow.png",
+	"glowColor":[123,104,229,255],
+	"turretOffsets":[15, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[20, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"unaffectedByProjectileSpeedBonuses":true,
+	#"animationType":"GLOW",
+	#"animationType":"GLOW_AND_FLASH",
+	"animationType":"GLOW",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH or GLOW_AND_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.12,
+					   "particleCount":10,
+					   "particleColor":[100,255,100,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"KE_YZ_CorruptionThrower_shot",  # projectile that will be fired
+	"noImpactSounds":true,
+	#"fireSoundTwo":"KE_YZ_CorruptionThrower_shot",
+}

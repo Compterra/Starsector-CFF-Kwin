@@ -1,0 +1,87 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "KE_UE_Skyline":0.5,
+
+            #"swp_sunder_xiv":0.5, # Net chance of 0.125 - very rare!
+
+            #"swp_eagle_black":0.01, # Ultra-rare easter egg
+            #"swp_eagle_white":0.01, # Ultra-rare easter egg
+            #"swp_gryphon_xiv":0.5, # Net chance of 0.125 - very rare!
+            #"swp_vindicator_o":0.1, # Very rare because it's very desirable
+
+            #"swp_conquest_xiv":0.5, # Net chance of 0.125 - very rare!
+            #"swp_liberator":0.5, # Uncommon because this is more of a LC thing
+        },
+    },
+    "knownShips":{
+    "tags":["KE_UE_L_bp","KE_UE_D_bp"],
+        "hulls":[
+            "KE_UE_Romantic",
+			"KE_EW_Pioneer",
+			"KE_EW_Pathfinder",
+			"KE_UE_Skyline",
+			"KE_UE_Shovel",
+			"KE_EW_Gyrfalcon_I",
+			"KE_UE_Skyward",
+			"KE_UE_EveningTea",
+			"KE_UE_Cloud",
+        ],
+    },
+    "priorityShips":{
+        "tags":[],
+        "hulls":[
+            #"KE_UE_Romantic",
+			#"KE_EW_Gyrfalcon_I",
+			#"KE_EW_Pioneer",
+        ],
+    },
+    "knownFighters":{
+        "fighters":[
+		"KE_TA_Viper_wing",
+		"KE_TA_Net_wing",
+		"KE_TA_CyanLight_wing",
+		"KE_TA_Base_wing",
+		"KE_TA_Predator_wing",
+		"KE_EB_Predator_wing",
+		"KE_TA_Dissection_wing",
+		"KE_TA_Spear_wing",
+        ],
+    },
+    "knownWeapons":{
+        "tags":[
+			"KE_YZ_Common_bp",
+		],		
+        "weapons":[
+            "KE_YZ_MicroFlakCannon",
+            "KE_YZ_PDPulse",
+			"KE_YZ_RefusepdLazer",
+			"KE_YZ_CrossbowCannon",
+			"KE_YZ_MicroEMPMissile_S",
+			"KE_YZ_JetTorpedo_S",
+			"KE_YZ_RatchetPulse",
+			"KE_YZ_DustFlakCannon",
+			"KE_YZ_MicroEMPMissile_M",
+			"KE_YZ_JetTorpedo_M",
+			"KE_YZ_GaleRocket_M",
+			"KE_YZ_PlainMissile_M",
+        ],
+    },
+    "weaponSellFrequency":{
+            "KE_YZ_MicroFlakCannon":3,
+            "KE_YZ_PDPulse":3,
+			"KE_YZ_RefusepdLazer":3,
+			"KE_YZ_CrossbowCannon":3,
+			"KE_YZ_MicroEMPMissile_S":3,
+			"KE_YZ_JetTorpedo_S":3,
+			"KE_YZ_RatchetPulse":3,
+			"KE_YZ_DustFlakCannon":3,
+			"KE_YZ_MicroEMPMissile_M":3,
+			"KE_YZ_JetTorpedo_M":3,
+			"KE_YZ_GaleRocket_M":3,
+			"KE_YZ_PlainMissile_M":3,
+    },
+    "hullmodSellFrequency":{
+        #"swp_pdconversion":5,
+    },
+},

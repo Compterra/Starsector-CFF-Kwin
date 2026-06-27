@@ -1,0 +1,80 @@
+{
+  "hullName": "Spear",
+  "hullId": "KE_TA_Spear",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_TA_Spear.png",
+  "style": "KE_TA_Company",
+  "height": 34,
+  "width": 38,
+  "center": [19, 17],
+  "collisionRadius": 21,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 18,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 9,
+      "angle": 0,
+      "locations": [-2, 9]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 9,
+      "angle": -0,
+      "locations": [-2, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13.5, -7],
+      "length": 14.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    },
+    {
+      "location": [-13.5, 7],
+      "length": 14.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    },
+    {
+      "location": [-12, -0],
+      "length": 14.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    }
+  ],
+  "bounds": [
+    -15, 8.5,
+    -5, 14,
+    14.5, 3.5,
+    14.5, -3.5,
+    -5, -14,
+    -15, -8.5
+  ]
+}

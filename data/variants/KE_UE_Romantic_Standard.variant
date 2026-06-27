@@ -1,0 +1,19 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 1,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "KE_UE_Romantic",
+    "hullMods": [
+        "additional_berthing",
+        "augmentedengines",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_UE_Romantic_Standard",
+    "weaponGroups": [],
+    "wings": [],
+    "modules": [],
+}

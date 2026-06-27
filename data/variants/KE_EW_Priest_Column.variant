@@ -1,0 +1,89 @@
+﻿{
+    "displayName": "Line",
+    "fluxCapacitors": 40,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "KE_EW_Priest",
+    "hullMods": [
+        "armoredweapons",
+        "autorepair",
+        "converted_hangar",
+        "hardenedshieldemitter",
+        "heavyarmor",
+        "stabilizedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Priest_Column",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "pilum_large",
+                "WS0011": "pilum_large",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pilum",
+                "WS0006": "pilum",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "hellbore",
+                "WS0013": "hellbore",
+                "WS0016": "mark9",
+                "WS0015": "mark9",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "arbalest",
+                "WS0004": "arbalest",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0021": "lightdualac",
+                "WS0010": "lightdualac",
+                "WS0009": "lightdualac",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "flak",
+                "WS0002": "flak",
+                "WS0008": "flak",
+                "WS0007": "flak",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0020": "mininglaser",
+                "WS0019": "mininglaser",
+                "WS0018": "mininglaser",
+                "WS0017": "mininglaser",
+            }
+        },
+    ],
+    "wings": [
+        "broadsword_wing",
+    ],
+    "modules": [],
+}

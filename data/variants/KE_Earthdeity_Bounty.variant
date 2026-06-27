@@ -1,0 +1,62 @@
+{
+  "variantId": "KE_Earthdeity_Bounty",
+  "hullId": "KE_Earthdeity",
+  "displayName": "Bounty",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_YZ_AdviceCannon",
+        "WS0002": "KE_YZ_AdviceCannon",
+        "WS0007": "KE_YZ_LongLancePulse",
+        "WS0008": "KE_YZ_LongLancePulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "devastator",
+        "WS0012": "devastator",
+        "WS0013": "KE_YZ_DustFlakCannon",
+        "WS0014": "KE_YZ_DustFlakCannon",
+        "WS0015": "KE_YZ_DustFlakCannon",
+        "WS0016": "KE_YZ_DustFlakCannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "KE_AuthorityLazer",
+        "WS0004": "KE_AuthorityLazer",
+        "WS0009": "KE_AuthorityLazer",
+        "WS0010": "KE_AuthorityLazer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "riftcascade",
+        "WS0006": "riftcascade"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "KE_TA_Net_wing",
+    "KE_TA_Net_wing",
+    "KE_TA_Viper_wing",
+    "KE_TA_Viper_wing"
+  ]
+}

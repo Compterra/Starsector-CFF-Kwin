@@ -1,0 +1,97 @@
+{
+  "hullName": "Arbalest",
+  "hullId": "KE_EW_Archer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/KE_EW_Archer.png",
+  "style": "LOW_TECH",
+  "height": 114,
+  "width": 62,
+  "center": [31, 57],
+  "collisionRadius": 67.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 61.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": -90,
+      "locations": [-20, -18]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 158,
+      "angle": 55,
+      "locations": [3, 9]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 27,
+      "angle": 0,
+      "locations": [37, 12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, -22],
+      "length": 17,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, 18],
+      "length": 17,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51, -19],
+      "length": 23,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51, 15],
+      "length": 23,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48.5, -2],
+      "length": 36,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -52.5, 18.5,
+    -45.5, 24,
+    -22.5, 26,
+    1, 25.5,
+    43, 16,
+    43, -16,
+    1, -25.5,
+    -22.5, -26,
+    -45.5, -24,
+    -52.5, -18.5
+  ]
+}

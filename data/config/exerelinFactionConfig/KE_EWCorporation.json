@@ -1,0 +1,27 @@
+{
+  "playableFaction": false,
+  "startingFaction": false,
+  "enabledByDefault": false,
+  "corvusCompatible": true,
+  "useStrategicAI": false,
+  "showIntelEvenIfDead": false,
+  "noHomeworld": true,
+  "directoryUseShortName": true,
+  "rebelFleetSuffix": "Breakaway Refiners",
+  "marketSpawnWeight": 0,
+  "colonyExpeditionChance": 0,
+  "specialForcesMaxFleets": 0,
+  "noRandomizeRelations": true,
+  "noSyncRelations": true,
+  "morality": "neutral",
+  "diplomacyTraits": ["neutralist", "lowprofile", "monopolist"],
+  "alignments": {
+    "corporate": 1,
+    "technocratic": 0.35,
+    "militarist": 0.2,
+    "diplomatic": 0.1,
+    "ideological": -0.5
+  },
+  "industrySeeds": [],
+  "bonusSeeds": []
+}

@@ -1,0 +1,45 @@
+﻿{
+    "displayName": "Demolition",
+    "fluxCapacitors": 6,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "KE_EW_Guard",
+    "hullMods": [
+        "eccm",
+        "hardenedshieldemitter",
+        "missleracks",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Guard_DEM",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightac",
+                "WS0004": "lightac",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "gorgon",
+                "WS0007": "gorgon",
+                "WS0006": "gorgon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pdlaser",
+                "WS0002": "pdlaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

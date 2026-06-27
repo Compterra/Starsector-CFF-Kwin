@@ -1,0 +1,107 @@
+{
+  "hullName": "Wayfinder",
+  "hullId": "KE_EW_Pathfinder",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/KE_EW_PathFinder.png",
+  "style": "MIDLINE",
+  "height": 100,
+  "width": 54,
+  "center": [27, 50],
+  "collisionRadius": 60.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 52.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "surveying_equipment"
+  ],  
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 137,
+      "angle": 55,
+      "locations": [14, 11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 137,
+      "angle": 153.5,
+      "locations": [-26, 5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 161,
+      "angle": -44,
+      "locations": [30, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, 14],
+      "length": 22,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, -8],
+      "length": 22,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -5.5],
+      "length": 22,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, 11.5],
+      "length": 22,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, 7],
+      "length": 22,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, -0],
+      "length": 22,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -44, 13.5,
+    -28.5, 19,
+    2.5, 22.5,
+    44, 8,
+    44, -8,
+    2.5, -22.5,
+    -28.5, -19,
+    -44, -13.5
+  ]
+}

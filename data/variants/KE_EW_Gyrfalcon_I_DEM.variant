@@ -1,0 +1,71 @@
+﻿{
+    "displayName": "Demolition",
+    "fluxCapacitors": 18,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "KE_EW_Gyrfalcon_I",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "missleracks",
+        "reinforcedhull",
+        "stabilizedshieldemitter",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Gyrfalcon_I_DEM",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyac",
+                "WS0002": "heavyac",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "dragon",
+                "WS0010": "dragon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ionbeam",
+                "WS0004": "ionbeam",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightac",
+                "WS0007": "lightac",
+                "WS0006": "lightac",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0008": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

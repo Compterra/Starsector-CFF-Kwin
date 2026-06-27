@@ -1,0 +1,43 @@
+{
+    "displayName": "Overdrive",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "KE_EW_Vanguard",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "missleracks",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Vanguard_Overdrive",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "sabotpod",
+                "WS0002": "sabotpod",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "typhoon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "chaingun",
+                "WS0004": "chaingun",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,48 @@
+{
+	"id":"KE_YZ_MEM_EnergyParticle_shell",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/shell_round_sml.png",
+	"size":[8,8],	
+	"center":[4,4],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[206,217,214,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":20, # purely visual
+	"reduceDamageWhileFading":true,
+	"useHitGlowWhenDestroyed":true,
+	"fizzleOnReachingWeaponRange":true,
+	"dudProbabilityOnFlameout":0,
+	"fadeTime":0, # fadeout duration
+	"glowColor":[178,134,76,255],
+	"glowRadius":7.5f,
+	"engineSpec":{"turnAcc":3000,
+				  "turnRate":3000,
+				  "acc":3000,
+				  "dec":3000},
+	#"engineSpec":{"turnAcc":240,
+	#			  "turnRate":120,
+	#			  "acc":400,
+	#			  "dec":400},				  
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[0,0,0,0],
+						"glowSizeMult":1,
+						"glowAlternateColor":[205,171,126,125],
+						"contrailDuration":0.2,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3.5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[206,209,217,75],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

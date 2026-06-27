@@ -1,0 +1,23 @@
+﻿{
+  "variantId": "KE_TA_Dissection_Bomber",
+  "hullId": "KE_TA_Dissection",
+  "displayName": "Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_TA_ErosionBiomassMissile_bomber",
+        "WS0002": "KE_TA_ErosionBiomassMissile_bomber"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

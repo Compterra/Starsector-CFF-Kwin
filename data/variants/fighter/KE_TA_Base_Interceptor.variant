@@ -1,0 +1,25 @@
+﻿{
+  "variantId": "KE_TA_Base_Interceptor",
+  "hullId": "KE_TA_Base",
+  "displayName": "Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_TA_NanoNeedle",
+        "WS0002": "KE_TA_NanoNeedle",
+        "WS0003": "KE_TA_NanoNeedle",
+        "WS0004": "KE_TA_NanoNeedle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

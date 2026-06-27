@@ -1,0 +1,65 @@
+﻿{
+    "displayName": "Line",
+    "fluxCapacitors": 20,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "KE_EW_Gyrfalcon",
+    "hullMods": [
+        "eccm",
+        "hardenedshieldemitter",
+        "missleracks",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Gyrfalcon_Column",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "annihilatorpod",
+                "WS0010": "annihilatorpod",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "annihilator",
+                "WS0007": "annihilator",
+                "WS0006": "annihilator",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0002": "hveldriver",
+                "WS0004": "hveldriver",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "flak",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "mininglaser",
+                "WS0014": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0008": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

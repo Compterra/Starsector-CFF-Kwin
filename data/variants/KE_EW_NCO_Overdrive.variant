@@ -1,0 +1,45 @@
+{
+    "displayName": "Overdrive",
+    "fluxCapacitors": 7,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "KE_EW_NCO",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_NCO_Overdrive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "chaingun",
+                "WS0004": "chaingun",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "sabotpod",
+                "WS0002": "sabotpod",
+                "WS0007": "sabotpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

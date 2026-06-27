@@ -1,0 +1,38 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "KE_EW_Crius",
+    "hullMods": [
+        "frontemitter",
+        "hardenedshieldemitter",
+        "magazines",
+        "stabilizedshieldemitter",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Crius_Elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "KE_YZ_CorruptionThrower",
+                "WS0002": "KE_YZ_CorruptionThrower",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0004": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

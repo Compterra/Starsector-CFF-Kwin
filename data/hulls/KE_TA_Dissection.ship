@@ -1,0 +1,85 @@
+{
+  "hullName": "Dissection",
+  "hullId": "KE_TA_Dissection",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_TA_Dissection.png",
+  "style": "KE_TA_Company",
+  "height": 54,
+  "width": 50,
+  "center": [25, 27],
+  "collisionRadius": 34,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "KE_TA_BionicAssistant"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, -12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0.5, 12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 14.5],
+      "length": 17.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    },
+    {
+      "location": [-19, -14.5],
+      "length": 17.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    },
+    {
+      "location": [-16.5, 9],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    },
+    {
+      "location": [-16.5, -9],
+      "length": 15,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    }
+  ],
+  "bounds": [
+    -21.5, 16,
+    3.5, 22.5,
+    4.5, 9.5,
+    18, 3.5,
+    18, -3.5,
+    4.5, -9.5,
+    3.5, -22.5,
+    -21.5, -16
+  ]
+}

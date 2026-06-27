@@ -1,0 +1,333 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"KE_EW_Guard_DEM":10,
+		"KE_EW_Guard_XIV_Elite":10,
+		"KE_EW_Guard_XIV_Overdrive":10,
+		"KE_EW_Pathfinder_Standard":10,
+		"KE_EW_Acolyte_Column":7,
+		"KE_EW_Archer_Column":7,
+		"KE_EW_Crius_Elite":5,
+		"KE_EW_Crius_Standard":5,
+		"KE_EW_Crius_Strike":4,
+		"KE_EW_Shield_Column":8,
+		"KE_UE_Skyline_Standard":2,
+		
+		"KE_EW_NCO_Column":2,
+		"KE_EW_NCO_Overdrive":2,
+		"KE_EW_Vanguard_Elite":1,
+		"KE_EW_Vanguard_Overdrive":1,
+		"KE_EW_NCO_TT_Overdrive":2,
+		"KE_EW_NCO_TT_Standard":2,
+		"KE_EW_NCO_TT_Strike":2,
+        "KE_TA_NightStar_Support":4,
+		"KE_TA_NightStar_Standard":4,
+        "KE_EW_DireWolf_Column":3,
+        "KE_UE_EveningTea_Standard":0.2,
+        "KE_UE_Cloud_Standard":0.2
+    },
+	
+	"combatSmall":{
+		"KE_EW_Guard_DEM":10,
+		"KE_EW_Guard_XIV_Elite":10,
+		"KE_EW_Guard_XIV_Overdrive":10,
+		"KE_EW_Pathfinder_Standard":10,
+		"KE_EW_Acolyte_Column":7,
+		"KE_EW_Archer_Column":7,
+		"KE_EW_Crius_Elite":5,
+		"KE_EW_Crius_Standard":5,
+		"KE_EW_Crius_Strike":4,
+		"KE_EW_Shield_Column":8,
+		"KE_UE_Skyline_Standard":0.2,
+		
+		"KE_EW_NCO_Column":2,
+		"KE_EW_NCO_Overdrive":2,
+		"KE_EW_Vanguard_Elite":1,
+		"KE_EW_Vanguard_Overdrive":1,
+		"KE_EW_NCO_TT_Overdrive":2,
+		"KE_EW_NCO_TT_Standard":2,
+		"KE_EW_NCO_TT_Strike":2,
+        "KE_TA_NightStar_Support":4,
+        "KE_TA_NightStar_Standard":4,
+        "KE_EW_DireWolf_Column":3,
+        "KE_UE_EveningTea_Standard":0.2,
+        "KE_UE_Cloud_Standard":0.2
+    },
+
+	"combatMedium":{
+		"KE_EW_Guard_DEM":1,
+		"KE_EW_Guard_XIV_Elite":1,
+		"KE_EW_Guard_XIV_Overdrive":1,
+		"KE_EW_Pathfinder_Standard":1,
+		"KE_EW_Acolyte_Column":1,
+		"KE_EW_Archer_Column":1,
+		"KE_EW_Crius_Elite":0.5,
+		"KE_EW_Crius_Standard":0.5,
+		"KE_EW_Crius_Strike":0.5,
+		"KE_EW_Shield_Column":1,
+		"KE_UE_Skyline_Standard":0.2,
+		
+		"KE_EW_NCO_Column":5,
+		"KE_EW_NCO_Overdrive":5,
+		"KE_EW_Vanguard_Elite":4,
+		"KE_EW_Vanguard_Overdrive":4,
+		"KE_EW_NCO_TT_Overdrive":5,
+		"KE_EW_NCO_TT_Standard":5,
+		"KE_EW_NCO_TT_Strike":5,
+        "KE_TA_NightStar_Support":6,
+        "KE_TA_NightStar_Standard":5,
+        "KE_EW_DireWolf_Column":5,
+        "KE_UE_EveningTea_Standard":0.2,
+        "KE_UE_Cloud_Standard":0.2,
+		
+		"KE_UE_Romantic_Standard":2,
+		"KE_UE_Shovel_Standard":7,
+		"KE_EW_Saker_Column":5,
+		"KE_EW_Saker_Elite":6,
+		"KE_EW_Saker_xiv_Column":7,
+		"KE_EW_Gyrfalcon_Column":8,
+		"KE_EW_Gyrfalcon_Elite":7,
+		"KE_EW_Gyrfalcon_I_DEM":4,
+		"KE_EW_Simen_Column":6,
+		"KE_EW_Simen_Elite":8,
+		"KE_EW_Exorcism_Column":7,
+		"KE_EW_Exorcism_Missile":8,
+		"KE_EW_Flagbearer_Column":9,
+		"KE_EW_Deacon_Column":10,
+		"KE_EW_Deacon_Warrior":5,
+        "KE_TA_HeavenFortress_Standard":7,
+        "KE_TA_Aurora_Support":7,
+        "KE_TA_Aurora_Standard":7
+    },
+
+	"combatLarge":{
+        "KE_UE_EveningTea_Standard":0.2,
+        "KE_UE_Cloud_Standard":0.2,
+
+		"KE_TA_Moonlight_Standard":4,
+		"KE_EW_Priest_Column":5,
+		"KE_EW_Priest_Custom":4,
+		"KE_EW_Priest_Elite":4,
+		
+		"KE_UE_Romantic_Standard":2,
+		"KE_UE_Shovel_Standard":7,
+		"KE_EW_Saker_Column":5,
+		"KE_EW_Saker_Elite":6,
+		"KE_EW_Saker_xiv_Column":7,
+		"KE_EW_Gyrfalcon_Column":6,
+		"KE_EW_Gyrfalcon_Elite":5,
+		"KE_EW_Gyrfalcon_I_DEM":4,
+		"KE_EW_Simen_Column":6,
+		"KE_EW_Simen_Elite":8,
+		"KE_EW_Exorcism_Column":7,
+		"KE_EW_Exorcism_Missile":8,
+		"KE_EW_Flagbearer_Column":9,
+		"KE_EW_Deacon_Column":10,
+		"KE_EW_Deacon_Warrior":5,
+        "KE_TA_HeavenFortress_Standard":7,
+        "KE_TA_Aurora_Support":7,
+        "KE_TA_Aurora_Standard":7
+	},
+
+	"combatCapital":{
+        "KE_UE_EveningTea_Standard":0.2,
+        "KE_UE_Cloud_Standard":0.2,
+
+		"KE_TA_Moonlight_Standard":4,
+		"KE_EW_Priest_Column":5,
+		"KE_EW_Priest_Custom":4,
+		"KE_EW_Priest_Elite":4,
+		
+		"KE_UE_Romantic_Standard":2,
+		"KE_UE_Shovel_Standard":7,
+		"KE_EW_Saker_Column":5,
+		"KE_EW_Saker_Elite":6,
+		"KE_EW_Saker_xiv_Column":7,
+		"KE_EW_Gyrfalcon_Column":8,
+		"KE_EW_Gyrfalcon_Elite":9,
+		"KE_EW_Gyrfalcon_I_DEM":4,
+		"KE_EW_Simen_Column":6,
+		"KE_EW_Simen_Elite":8,
+		"KE_EW_Exorcism_Column":7,
+		"KE_EW_Exorcism_Missile":8,
+		"KE_EW_Flagbearer_Column":9,
+		"KE_EW_Deacon_Column":10,
+		"KE_EW_Deacon_Warrior":5,
+        "KE_TA_HeavenFortress_Standard":7,
+        "KE_TA_Aurora_Support":7,
+        "KE_TA_Aurora_Standard":7
+	},
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+        "KE_UE_EveningTea_Standard":6,
+        "KE_UE_Cloud_Standard":4,
+		"KE_EW_Guard_DEM":10,
+		"KE_EW_Guard_XIV_Elite":10,
+		"KE_EW_Guard_XIV_Overdrive":10,
+		"KE_EW_Pathfinder_Standard":10,
+		"KE_EW_Acolyte_Column":7,
+		"KE_EW_Archer_Column":7,
+		"KE_EW_Crius_Elite":5,
+		"KE_EW_Crius_Standard":5,
+		"KE_EW_Crius_Strike":4,
+		"KE_EW_Shield_Column":8,
+		"KE_UE_Skyline_Standard":2,
+		
+		"KE_EW_NCO_Column":2,
+		"KE_EW_NCO_Overdrive":2,
+		"KE_EW_Vanguard_Elite":1,
+		"KE_EW_Vanguard_Overdrive":1,
+		"KE_EW_NCO_TT_Overdrive":2,
+		"KE_EW_NCO_TT_Standard":2,
+		"KE_EW_NCO_TT_Strike":2,
+        "KE_TA_NightStar_Support":6,
+        "KE_TA_NightStar_Standard":5
+        },
+
+	"combatFreighterMedium":{
+        "KE_UE_EveningTea_Standard":1,
+        "KE_UE_Cloud_Standard":1,
+		"KE_EW_Guard_DEM":2,
+		"KE_EW_Guard_XIV_Elite":3,
+		"KE_EW_Guard_XIV_Overdrive":2,
+		"KE_EW_Pathfinder_Standard":3,
+		"KE_EW_Acolyte_Column":5,
+		"KE_EW_Archer_Column":4,
+		"KE_EW_Crius_Elite":3,
+		"KE_EW_Crius_Standard":2,
+		"KE_EW_Crius_Strike":1,
+		"KE_EW_Shield_Column":2,
+		"KE_UE_Skyline_Standard":0.5,
+		
+		"KE_EW_NCO_Column":2,
+		"KE_EW_NCO_Overdrive":2,
+		"KE_EW_Vanguard_Elite":1,
+		"KE_EW_Vanguard_Overdrive":1,
+		"KE_EW_NCO_TT_Overdrive":2,
+		"KE_EW_NCO_TT_Standard":2,
+		"KE_EW_NCO_TT_Strike":2,
+		"KE_UE_Skyward_Standard":4,
+        "KE_TA_NightStar_Support":6,
+        "KE_TA_NightStar_Standard":5,
+	},
+
+	"combatFreighterLarge":{
+        "KE_UE_EveningTea_Standard":0.2,
+        "KE_UE_Cloud_Standard":0.2,
+		"KE_EW_Guard_DEM":2,
+		"KE_EW_Guard_XIV_Elite":3,
+		"KE_EW_Guard_XIV_Overdrive":2,
+		"KE_EW_Pathfinder_Standard":3,
+		"KE_EW_Acolyte_Column":5,
+		"KE_EW_Archer_Column":4,
+		"KE_EW_Crius_Elite":3,
+		"KE_EW_Crius_Standard":2,
+		"KE_EW_Crius_Strike":1,
+		"KE_EW_Shield_Column":2,
+		"KE_UE_Skyline_Standard":0.5,
+
+		"KE_EW_NCO_Column":2,
+		"KE_EW_NCO_Overdrive":2,
+		"KE_EW_Vanguard_Elite":1,
+		"KE_EW_Vanguard_Overdrive":1,
+		"KE_EW_NCO_TT_Overdrive":2,
+		"KE_EW_NCO_TT_Standard":2,
+		"KE_EW_NCO_TT_Strike":2,
+        "KE_TA_NightStar_Support":1,
+        "KE_TA_NightStar_Standard":2,
+		"KE_UE_Skyward_Standard":4,
+        "KE_TA_HeavenFortress_Standard":3,
+        "KE_TA_Aurora_Support":3,
+        "KE_TA_Aurora_Standard":3
+	},
+	
+	"civilianRandom":{
+	},
+
+	# carriers
+	"carrierSmall":{
+	},
+
+	"carrierMedium":{
+	},
+
+	"carrierLarge":{
+	},
+
+	# phase ships
+	"phaseSmall":{
+
+	},
+
+	"phaseMedium":{
+
+	},
+	"phaseLarge":{
+
+	},
+	"phaseCapital":{
+
+	},
+
+	# freighters and such
+	"freighterSmall":{
+
+	},
+
+	"freighterMedium":{
+
+	},
+
+	"freighterLarge":{
+
+	},
+	
+	"tankerSmall":{
+
+	},
+
+	"tankerMedium":{
+
+	},
+
+	"tankerLarge":{
+
+	},
+	
+	"personnelSmall":{
+
+	},
+
+	"personnelMedium":{
+
+	},
+	"personnelLarge":{
+
+	},
+	
+	"linerSmall":{
+	},
+
+	"linerMedium":{
+
+	},
+
+	"linerLarge":{
+
+	},
+	
+	# utility ships
+	"tug":{
+
+	},
+	
+	"crig":{
+
+	},
+
+	"utility":{
+
+	}
+}

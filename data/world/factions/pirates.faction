@@ -1,0 +1,79 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            #"KE_UE_Romantic":0.5, # Uncommon because Heg doesn't usually use Brawlers
+
+            #"swp_sunder_xiv":0.5, # Net chance of 0.125 - very rare!
+
+            #"swp_eagle_black":0.01, # Ultra-rare easter egg
+            #"swp_eagle_white":0.01, # Ultra-rare easter egg
+            #"swp_gryphon_xiv":0.5, # Net chance of 0.125 - very rare!
+            #"swp_vindicator_o":0.1, # Very rare because it's very desirable
+
+            #"swp_conquest_xiv":0.5, # Net chance of 0.125 - very rare!
+            #"swp_liberator":0.5, # Uncommon because this is more of a LC thing
+        },
+    },
+    "knownShips":{
+        "hulls":[
+			"KE_UE_EveningTea",
+			"KE_UE_Cloud",
+        ],
+    },
+    "priorityShips":{
+        "tags":[],
+        "hulls":[
+        ],
+    },
+    "knownFighters":{
+        "fighters":[
+		"KE_TA_Viper_wing",
+		"KE_TA_Net_wing",
+		"KE_TA_CyanLight_wing",
+		"KE_TA_Base_wing",
+		"KE_TA_Predator_wing",
+		"KE_EB_Predator_wing",
+		"KE_TA_Dissection_wing",
+		"KE_TA_Spear_wing",
+        ],
+    },
+    "knownWeapons":{
+        "weapons":[
+            "KE_YZ_MicroFlakCannon",
+            "KE_YZ_PDPulse",
+			"KE_YZ_RefusepdLazer",
+			"KE_YZ_CrossbowCannon",
+			"KE_YZ_MicroEMPMissile_S",
+			"KE_YZ_JetTorpedo_S",
+			"KE_YZ_RatchetPulse",
+			"KE_YZ_DustFlakCannon",
+			"KE_YZ_MicroEMPMissile_M",
+			"KE_YZ_JetTorpedo_M",
+			"KE_YZ_GaleRocket_M",
+			"KE_YZ_PlainMissile_M",
+        ],
+    },
+    "priorityWeapons":{
+        "tags":[],
+        "weapons":[
+            "KE_YZ_MicroFlakCannon",
+            "KE_YZ_PDPulse",
+			"KE_YZ_RefusepdLazer",
+			"KE_YZ_CrossbowCannon",
+			"KE_YZ_MicroEMPMissile_S",
+			"KE_YZ_JetTorpedo_S",
+			"KE_YZ_RatchetPulse",
+			"KE_YZ_DustFlakCannon",
+			"KE_YZ_MicroEMPMissile_M",
+			"KE_YZ_JetTorpedo_M",
+			"KE_YZ_GaleRocket_M",
+			"KE_YZ_PlainMissile_M",
+        ],
+    },
+    "weaponSellFrequency":{
+        #"swp_tripleflak":5,
+    },
+    "hullmodSellFrequency":{
+        #"swp_pdconversion":5,
+    },
+},

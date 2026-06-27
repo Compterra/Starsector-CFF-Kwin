@@ -1,0 +1,103 @@
+{
+  "hullName": "Baseline",
+  "hullId": "KE_TA_Base",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_TA_Base.png",
+  "style": "KE_TA_Company",
+  "height": 54,
+  "width": 50,
+  "center": [25, 27],
+  "collisionRadius": 27.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, 11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [1.5, -11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2.5, -8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2.5, 8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, 4],
+      "length": 14,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    },
+    {
+      "location": [-11.5, -4],
+      "length": 14,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-12, 7],
+      "length": 7,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-12, -7],
+      "length": 7,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    }
+  ],
+  "bounds": [
+    -13.5, 7,
+    3.5, 20,
+    1, 5,
+    19.5, 2,
+    19.5, -2,
+    1, -5,
+    3.5, -20,
+    -13.5, -7
+  ]
+}

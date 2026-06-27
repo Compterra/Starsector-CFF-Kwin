@@ -1,0 +1,64 @@
+﻿{
+  "variantId": "KE_EW_DireWolf_Column",
+  "hullId": "KE_EW_DireWolf",
+  "displayName": "Pursuit",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "KE_YZ_PDPulse",
+        "WS0005": "KE_YZ_PDPulse",
+        "WS0006": "KE_YZ_PDPulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_YZ_AlienationLazer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "KE_YZ_RatchetPulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "KE_YZ_MicroEMPMissile_S",
+        "WS0008": "KE_YZ_MicroEMPMissile_S",
+        "WS0009": "KE_YZ_MicroEMPMissile_S"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "KE_YZ_JetTorpedo_S"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

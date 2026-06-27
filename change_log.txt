@@ -1,0 +1,69 @@
+﻿2026.05.31
+0.0.4-ver3
+Ship insert:
+Energy Swarm Core: Added MS linkage for mecha expansion
+Composite Aviation Forge Cluster: bug fixes
+2026.05.23
+0.0.4-ver2
+arms:
+Fixed the problem of abnormal special effects of bioerosion series weapons
+Ship insert:
+Energy Swarm Core: Fixed some bugs in the upgrade kit, and added MS linkage to Moci's casual game
+Add ship plug:
+Ionized rechargeable armor: Provides more diverse protection options for low-tech ships such as the Dominator series.
+career:
+Zenith Era Corporation:
+Reduce fee collection to 10%
+Add products:
+"Rapid Clone Core": a versatile type of artifact that allows for various bonuses to be provided to colonies
+2026.04.27
+0.0.4-ver1
+Ship insert:
+Energy Swarm Core: Optimized visual performance
+career:
+Tariffs for each business segment have been reduced and market naming revised.
+2026.04.19
+0.0.4-bugfix1
+Fixed organic erosion blast area anomaly and mechanism processing issues
+Fixed description of Aurora built-in boat plug
+2026.04.18
+0.0.4
+Ship insert:
+Added "Energy Swarm Core", allowing to provide the basis for new tactical options
+Fighter:
+Added new fighters:
+Predator Elite Fighter
+Predator (EB) class elite fighter
+Base stage interceptor
+dissection-class bomber
+Short gun level attack aircraft
+Qingguang-class bomber
+Ship:
+New ships added:
+Dire Wolf-class high-speed destroyer
+2026.03.28
+0.0.3
+career:
+Added star systems and corresponding markets for each company
+Players can now build company branches to provide more diverse options for their colonies
+Corrected the abnormal refresh rate issue of some ships
+arms:
+Numerical adjustments have been made to most weapons
+Ship:
+Added Amagi-class aircraft carrier
+Added Aurora class aircraft carrier
+Added Night Star high-speed aircraft carrier
+Added evening tea class catering supply ship
+Added Yunduo-class entertainment service ship
+2026.02.02
+0.0.2
+other:
+Added Earth God level bounty, entropy level bounty and corresponding rewards
+arms:
+Daily cruise missile: damage 400/500/600-->300, corrected the situation where the missile stopped moving in some cases, corrected the missile flight time
+Ratchet Rapid Fire Pulse: Cancels the amount fired per round
+Micro pulse missile: flight time 2s-->3s
+Blade torpedo: flight time 3s-->6s
+2026.01.31
+0.0.1
+A range of ships and weapons have been added.

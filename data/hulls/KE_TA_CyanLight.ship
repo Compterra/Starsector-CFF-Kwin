@@ -1,0 +1,78 @@
+{
+  "hullName": "Cyan Light",
+  "hullId": "KE_TA_CyanLight",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_TA_CyanLight.png",
+  "style": "LOW_TECH",
+  "height": 54,
+  "width": 50,
+  "center": [25, 27],
+  "collisionRadius": 33,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8.5, 11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-8.5, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19.5, 14.5],
+      "length": 14,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-19.5, -14.5],
+      "length": 14,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-17.5, 9],
+      "length": 10.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-17.5, -9],
+      "length": 10.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -20, 16,
+    2, 20.5,
+    2.5, 7,
+    18.5, 3,
+    18.5, -3,
+    2.5, -7,
+    2, -20.5,
+    -20, -16
+  ]
+}

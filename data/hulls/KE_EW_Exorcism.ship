@@ -1,0 +1,206 @@
+{
+  "hullName": "Exorcist",
+  "hullId": "KE_EW_Exorcism",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/KE_EW_Exorcism.png",
+  "style": "LOW_TECH",
+  "height": 185,
+  "width": 138,
+  "center": [69, 92.5],
+  "collisionRadius": 131,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 114,
+  "viewOffset": 0,
+  "builtInMods": [
+    "KE_EW_BionicAutomation"
+  ],  
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -43,
+      "locations": [46.5, -40]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 43,
+      "locations": [46.5, 40]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 43,
+      "locations": [10.5, 39]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -43,
+      "locations": [10.5, -39]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": -122.5,
+      "locations": [-71.5, -49]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": 122.5,
+      "locations": [-71.5, 49]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": -122.5,
+      "locations": [-57.5, -38]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": 122.5,
+      "locations": [-57.5, 38]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": -40.5,
+      "locations": [-29.5, -31]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": 40.5,
+      "locations": [-29.5, 31]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 26,
+      "angle": 0,
+      "locations": [16, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82, -51],
+      "length": 26.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82, 51],
+      "length": 26.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, -43.5],
+      "length": 28.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, 43.5],
+      "length": 28.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, -36.5],
+      "length": 39.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, 36.5],
+      "length": 39.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88, -28],
+      "length": 53,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88, 28],
+      "length": 53,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -63.5, 13,
+    -90.5, 24,
+    -88, 45.5,
+    -74.5, 59,
+    -60, 55,
+    -23, 64,
+    24.5, 56.5,
+    38, 63,
+    84.5, 39.5,
+    36.5, 24,
+    36.5, -24,
+    84.5, -39.5,
+    38, -63,
+    24.5, -56.5,
+    -23, -64,
+    -60, -55,
+    -74.5, -59,
+    -88, -45.5,
+    -90.5, -24,
+    -63.5, -13
+  ]
+}

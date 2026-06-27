@@ -1,0 +1,27 @@
+{
+  "playableFaction": false,
+  "startingFaction": false,
+  "enabledByDefault": false,
+  "corvusCompatible": true,
+  "useStrategicAI": false,
+  "showIntelEvenIfDead": false,
+  "noHomeworld": true,
+  "directoryUseShortName": true,
+  "rebelFleetSuffix": "Runaway Test Wing",
+  "marketSpawnWeight": 0,
+  "colonyExpeditionChance": 0,
+  "specialForcesMaxFleets": 0,
+  "noRandomizeRelations": true,
+  "noSyncRelations": true,
+  "morality": "neutral",
+  "diplomacyTraits": ["neutralist", "lowprofile"],
+  "alignments": {
+    "corporate": 0.8,
+    "technocratic": 0.75,
+    "militarist": -0.1,
+    "diplomatic": 0.2,
+    "ideological": -0.5
+  },
+  "industrySeeds": [],
+  "bonusSeeds": []
+}

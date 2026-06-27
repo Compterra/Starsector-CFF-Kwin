@@ -1,0 +1,162 @@
+{
+  "hullName": "Luoyang Shovel",
+  "hullId": "KE_UE_Shovel",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/KE_UE_Shovel.png",
+  "style": "KE_UE_Company",
+  "height": 196,
+  "width": 137,
+  "center": [68.5, 98],
+  "collisionRadius": 125.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 113,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "hiressensors",
+    "repair_gantry",
+    "surveying_equipment"
+  ],
+  "builtInWings": [
+    "KE_TA_Sweep_wing",
+    "KE_TA_Sweep_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": -44,
+      "locations": [59, -31.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": -90,
+      "locations": [-20, -47.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 224,
+      "angle": 180,
+      "locations": [-41, -4.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": 90,
+      "locations": [25, 38.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": 32,
+      "locations": [52, 28.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -30, 51.5,
+        -29, 53.5,
+        -33, 53.5,
+        -31, 56
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -16, 52,
+        -14, 52.5,
+        -15.5, 55,
+        -18.5, 53
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-87, -42.5],
+      "length": 21,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, 42.5],
+      "length": 21,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-92, -29.5],
+      "length": 25.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-92, 29.5],
+      "length": 25.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-93, -16],
+      "length": 31,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-93, 16],
+      "length": 31,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -94, 29.5,
+    -88, 45.5,
+    -47, 62,
+    31.5, 59,
+    84.5, 24,
+    84.5, -24,
+    74, -44,
+    31.5, -59,
+    -47, -62,
+    -88, -45.5,
+    -94, -29.5
+  ]
+}

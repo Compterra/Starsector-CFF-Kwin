@@ -1,0 +1,28 @@
+{
+	"id":"KE_YZ_AdviceCannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":450,
+	"turretSprite":"graphics/weapons/KE_YZ_AdviceCannon_T.png",
+	"turretGunSprite":"graphics/weapons/KE_YZ_AdviceCannon_T_recoil.png",
+	"hardpointSprite":"graphics/weapons/KE_YZ_AdviceCannon.png",
+	"hardpointGunSprite":"graphics/weapons/KE_YZ_AdviceCannon_recoil.png",	
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[29, -4, 29, 4],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[45, -4, 45, 4],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":54.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":20.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.12,
+					   "particleCount":32,
+					   "particleColor":[255,185,115,215]},
+	"projectileSpecId":"KE_YZ_AdviceCannon_shot",  # projectile that will be fired
+	"fireSoundTwo":"hephaestus_fire",
+}

@@ -1,0 +1,18 @@
+{
+	"id":"KE_TA_AcheBiomassMG_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"onFireEffect":"data.combat.KE_TA_BiomassErosion",
+	"onHitEffect":"data.combat.KE_TA_BiomassErosion",		
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":35.0,
+	"hitGlowRadius":15,
+	"width":3.5,
+	"fadeTime":0.3,
+	"fringeColor":[237,32,63,200],
+	"coreColor":[251,210,217,80],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png"
+}

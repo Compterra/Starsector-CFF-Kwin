@@ -1,0 +1,15 @@
+# Local/editor clutter
+.vscode/
+.idea/
+*.iml
+*.tmp
+*.bak
+*.log
+
+# Java/build scratch
+*.class
+build/
+out/
+
+# Local release artifacts
+*.zip

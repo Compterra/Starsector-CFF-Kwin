@@ -1,0 +1,73 @@
+{
+	"plugins":{
+      "KE_YZ_EnergyParticleEveryFrame": "data.combat.KE_YZ_EnergyParticle.KE_YZ_EnergyParticleEveryFrame"
+    },
+
+	"designTypeColors":{
+		"Zenith - Luxury Design":[208,139,244,255],
+		"Zenith - Cuisine Design":[234,136,87,255],
+		"Zenith - Interstellar Design":[7,119,192,255],
+		
+		"Flicker - Wayfarer Design":[193,217,220,255],
+		"Flicker - Mystic Design":[10,122,240,255],
+		"Flicker - Strikecraft Design":[33,186,53,255],
+		"Flicker - Carrier Design":[106,173,255,255],
+		"Flicker - Tri-Tachyon Contract":[82,190,255,255],
+		"Flicker - Hegemony Contract":[190,95,70,255],
+		"Flicker - Mercenary Contract":[205,185,125,255],
+		"Flicker - Exodyne Retrofit":[112,205,118,255],		
+		
+		"Yunze - Citybreaker Series":[208,73,6,255],
+		"Yunze - X Series":[18,130,211,255],
+		"Yunze - Guard Series":[127,64,137,255],
+		"Yunze - Oath Series":[222,217,107,255],
+		"Yunze-Qianxin Design":[166,238,165,255],
+		"Yunze - Secret Contract":[46,88,45,255],
+		"Yunze - Masscraft Series":[175,195,200,255],
+		"Yunze - Hegemony Contract":[180,70,45,255],
+		"Yunze - Persean Contract":[116,95,172,255],
+		"Yunze - Tri-Tachyon Contract":[70,180,230,255],
+		"Yunze - Sindrian Contract":[212,158,58,255],
+		
+		"Monolith - Heavy Industry":[165,63,44,255],
+		"Monolith - Harmony Pattern":[223,212,163,255],
+		"Monolith - Energetic Focus":[159,199,236,255],
+		"Monolith - Hegemony Contract":[180,70,45,255],
+		"Monolith - Luddic Contract":[92,158,82,255],
+		"Monolith - Luddic Retrofit":[112,145,75,255],
+		"Monolith - Persean Contract":[116,95,172,255],
+		"Monolith - Tri-Tachyon Contract":[70,180,230,255],
+		"Monolith - Tri-Tachyon Retrofit":[85,165,245,255],
+		"Monolith - Mercenary Contract":[195,170,105,255],
+		"Exodyne Biotechnology":[92,190,105,255],
+		"Tianhong Legacy":[178,126,255,255],
+		"Omega Anomaly":[190,150,255,255]		
+	},
+
+	"graphics":{
+		"misc":{
+
+		},
+
+		"illustrations": {
+
+		},
+
+		"fx":{
+		},
+
+		"intel": {
+
+		},
+		"characters":{
+			"KE_EntropyCore_portrait": "graphics/portraits/KE_EntropyCore_portrait.png"
+		},
+		"blueprint_packages":{
+
+		}
+	},
+
+	"bonusXP":{
+
+	}
+}

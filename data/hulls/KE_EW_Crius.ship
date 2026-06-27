@@ -1,0 +1,137 @@
+{
+  "hullName": "Crius",
+  "hullId": "KE_EW_Crius",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/KE_EW_Crius.png",
+  "style": "HIGH_TECH",
+  "height": 90,
+  "width": 98,
+  "center": [49, 45],
+  "collisionRadius": 65,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 60.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "KE_EW_PlasmaGenerator"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 21,
+      "angle": 0,
+      "locations": [35.5, -22]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 21,
+      "angle": -0,
+      "locations": [35.5, 22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 114,
+      "angle": -53,
+      "locations": [20, -40]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 114,
+      "angle": 53,
+      "locations": [20, 40]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 180,
+      "locations": [-30, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, 26.5],
+      "length": 26,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-27.5, -26.5],
+      "length": 26,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31, -19.5],
+      "length": 25.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31, 19.5],
+      "length": 25.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33.5, -12],
+      "length": 26,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33.5, 12],
+      "length": 26,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -43, 5.5,
+    -39, 8.5,
+    -29.5, 28,
+    -24.5, 29.5,
+    -16.5, 41.5,
+    -5.5, 33.5,
+    16, 47.5,
+    41, 30.5,
+    42.5, 16,
+    16.5, 9,
+    16.5, -9,
+    42.5, -16,
+    41, -30.5,
+    16, -47.5,
+    -5.5, -33.5,
+    -16.5, -41.5,
+    -24.5, -29.5,
+    -29.5, -28,
+    -39, -8.5,
+    -43, -5.5
+  ]
+}

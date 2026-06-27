@@ -1,0 +1,17 @@
+{
+	"id":"KE_YZ_IonPDPulse_fighter_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.combat.KE_YZ_IonPDPulse_fighter_OnHit",	
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":30.0,
+	"width":4.0,
+	"fadeTime":0.25,
+	"fringeColor":[85,123,235,255],
+	"coreColor":[187,202,247,200],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

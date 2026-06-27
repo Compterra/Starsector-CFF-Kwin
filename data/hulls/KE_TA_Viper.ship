@@ -1,0 +1,69 @@
+{
+  "hullName": "Viper",
+  "hullId": "KE_TA_Viper",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_TA_Viper.png",
+  "style": "KE_TA_Company",
+  "height": 37,
+  "width": 54,
+  "center": [27, 18.5],
+  "collisionRadius": 35.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 32,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -19],
+      "length": 22.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-16, 1.5],
+      "length": 17,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    },
+    {
+      "location": [-16, 8.5],
+      "length": 17,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal2"
+    },
+    {
+      "location": [-12, 16.5],
+      "length": 16.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    }
+  ],
+  "bounds": [
+    16.5, 16.5,
+    1.5, -23.5,
+    -16, 4,
+    -4.5, 25
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Warrior",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "KE_EW_Deacon",
+    "hullMods": [
+        "expanded_deck_crew",
+        "heavyarmor",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Deacon_Warrior",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "arbalest",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "heatseeker",
+                "WS0005": "heatseeker",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "vulcan",
+            }
+        },
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing",
+        "broadsword_wing",
+        "broadsword_wing",
+    ],
+    "modules": [],
+}

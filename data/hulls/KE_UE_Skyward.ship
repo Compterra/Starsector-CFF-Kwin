@@ -1,0 +1,118 @@
+{
+  "hullName": "Skyward",
+  "hullId": "KE_UE_Skyward",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/KE_UE_Skyward.png",
+  "style": "KE_UE_Company",
+  "height": 313,
+  "width": 146,
+  "center": [73, 156.5],
+  "collisionRadius": 187,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 170.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [122.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -52.5,
+      "locations": [-33.5, -57]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 52.5,
+      "locations": [-33.5, 57]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [-90.5, -48]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-90.5, 48]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-154.5, -28],
+      "length": 37.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-154.5, 28],
+      "length": 37.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-140, -15],
+      "length": 35,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-140, 15],
+      "length": 35,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-146, -0],
+      "length": 42,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -154.5, 34.5,
+    -144.5, 51,
+    -105, 52.5,
+    -46.5, 68,
+    134, 59.5,
+    134, -59.5,
+    -46.5, -68,
+    -105, -52.5,
+    -144.5, -51,
+    -154.5, -34.5
+  ]
+}

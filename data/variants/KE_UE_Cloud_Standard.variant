@@ -1,0 +1,33 @@
+{
+  "variantId": "KE_UE_Cloud_Standard",
+  "hullId": "KE_UE_Cloud",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_YZ_PDPulse",
+        "WS0002": "KE_YZ_PDPulse",
+        "WS0003": "KE_YZ_PDPulse",
+        "WS0004": "KE_YZ_PDPulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "KE_YZ_SunChaserMissile_S",
+        "WS0006": "KE_YZ_SunChaserMissile_S"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

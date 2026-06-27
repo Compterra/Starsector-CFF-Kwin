@@ -1,0 +1,27 @@
+{
+  "variantId": "KE_UE_EveningTea_Standard",
+  "hullId": "KE_UE_EveningTea",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_YZ_MicroFlakCannon",
+        "WS0002": "KE_YZ_MicroFlakCannon",
+        "WS0003": "KE_YZ_MicroFlakCannon",
+        "WS0004": "KE_YZ_MicroFlakCannon",
+        "WS0005": "KE_YZ_MicroFlakCannon",
+        "WS0006": "KE_YZ_MicroFlakCannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,104 @@
+{
+  "hullName": "Bastion",
+  "hullId": "KE_EW_Shield",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/KE_EW_Shield.png",
+  "style": "LOW_TECH",
+  "height": 120,
+  "width": 69,
+  "center": [34.5, 60],
+  "collisionRadius": 74,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 67.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": 0,
+      "locations": [51, -6.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 139,
+      "angle": -62,
+      "locations": [21, -7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 9,
+      "angle": -53,
+      "locations": [22, -26.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 139,
+      "angle": 63.5,
+      "locations": [2, 10.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 98.5,
+      "locations": [-20, 14.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 180,
+      "locations": [-41, 6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, 6.5],
+      "length": 33,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, -3],
+      "length": 25,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-52, 19],
+      "length": 24.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    56, -14.5,
+    56, 1.5,
+    -33.5, 30.5,
+    -53.5, 22,
+    -55.5, -7,
+    -11.5, -31
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "hullName": "Snare",
+  "hullId": "KE_TA_Net",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_TA_Net.png",
+  "style": "KE_TA_Company",
+  "height": 34,
+  "width": 28,
+  "center": [14, 17],
+  "collisionRadius": 26.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1.5, -7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1.5, 7.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -5],
+      "length": 13,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, 5],
+      "length": 13,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -0],
+      "length": 20.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -15.5, 9,
+    -3, 14,
+    15.5, 2.5,
+    15.5, -2.5,
+    -3, -14,
+    -15.5, -9
+  ]
+}

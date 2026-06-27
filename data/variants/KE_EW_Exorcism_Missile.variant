@@ -1,0 +1,48 @@
+{
+    "displayName": "Missile",
+    "fluxCapacitors": 30,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "KE_EW_Exorcism",
+    "hullMods": [
+        "converted_hangar",
+        "hardenedshieldemitter",
+        "heavyarmor",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Exorcism_Missile",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightac",
+                "WS0003": "lightac",
+                "WS0002": "lightac",
+                "WS0004": "lightac",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "pilum_large",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "heavymortar",
+                "WS0009": "heavymortar",
+            }
+        },
+    ],
+    "wings": [
+        "broadsword_wing",
+    ],
+    "modules": [],
+}

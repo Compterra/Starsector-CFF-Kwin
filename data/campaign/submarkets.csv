@@ -1,0 +1,5 @@
+﻿id,name,faction,desc,script,icon,order
+KE_EWMarket,Monolith Licensed Market,KE_EWCorporation,"A licensed Monolith market offering the group's own hulls, weapons, armor packages, and industrial support equipment.",data.campaign.submarkets.KE_EWMarket,,0
+KE_UEMarket,Zenith Crown Trade Center,KE_UECorporation,"A Zenith Era trade center specializing in luxury hulls, expedition services, civilian logistics, and corporate hospitality equipment.",data.campaign.submarkets.KE_UEMarket,,0
+KE_TAMarket,Flicker Flight Bazaar,KE_TACorporation,"A Flicker Aviation sales floor where carrier hulls, LPCs, aerospace support systems, and prototype-adjacent hardware change hands under careful supervision.",data.campaign.submarkets.KE_TAMarket,,0
+KE_YZMarket,Yunting Ordnance Exchange,KE_YZCorporation,"A Yunze General Ordnance exchange stocked with missile systems, energy weapons, military hulls, and range-proven contract hardware.",data.campaign.submarkets.KE_YZMarket,,0

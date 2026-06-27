@@ -1,0 +1,78 @@
+{
+  "hullName": "Raptor",
+  "hullId": "KE_TA_Predator",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/KE_TA_Predator.png",
+  "style": "KE_TA_Company",
+  "height": 54,
+  "width": 50,
+  "center": [25, 27],
+  "collisionRadius": 27,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 25.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "KE_TA_BionicAssistant"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [-2, 9.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": -0,
+      "locations": [-2, -9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [9, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 9],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    },
+    {
+      "location": [-15, -9],
+      "length": 16,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KE_TA_Normal1"
+    }
+  ],
+  "bounds": [
+    -17, 12.5,
+    -9.5, 13.5,
+    2.5, 20.5,
+    -2, 8.5,
+    21, 3,
+    21, -3,
+    -2, -8.5,
+    2.5, -20.5,
+    -9.5, -13.5,
+    -17, -12.5
+  ]
+}

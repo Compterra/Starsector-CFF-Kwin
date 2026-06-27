@@ -1,0 +1,30 @@
+﻿{
+  "variantId": "KE_TA_Predator_Assault",
+  "hullId": "KE_TA_Predator",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "KE_TA_AcheBiomassMG",
+        "WS0002": "KE_TA_AcheBiomassMG"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "KE_TA_ErosionBiomassMissile_S_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

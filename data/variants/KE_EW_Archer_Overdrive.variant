@@ -1,0 +1,30 @@
+{
+    "displayName": "Overdrive",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "KE_EW_Archer",
+    "hullMods": [
+        "eccm",
+        "hardenedshieldemitter",
+        "missleracks",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "KE_EW_Archer_Overdrive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "sabotpod",
+                "WS0003": "sabotpod",
+                "WS0001": "lightac",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}
