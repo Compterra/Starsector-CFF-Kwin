@@ -8,6 +8,6 @@
         "patch":4
     },
     "starsectorVersion":"0.98a",
-    "directDownloadURL":"https://github.com/Compterra/Starsector-CFF-Kwin/releases/latest/download/Kwin.zip",
+    "directDownloadURL":"https://raw.githubusercontent.com/Compterra/Starsector-CFF-Kwin/main/Kwin.zip",
     "changelogURL":"https://raw.githubusercontent.com/Compterra/Starsector-CFF-Kwin/main/CHANGELOG.md"
 }

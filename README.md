@@ -38,10 +38,10 @@ This repository contains a polished local maintenance build. Recent cleanup work
 
 ## Release Packaging
 
-Release downloads should be attached to GitHub releases as:
+The current Version Checker download URL points at the repository copy:
 
 ```text
-Kwin.zip
+https://raw.githubusercontent.com/Compterra/Starsector-CFF-Kwin/main/Kwin.zip
 ```
 
 The zip should contain the top-level `Kwin` folder so users can extract it directly into `Starsector/mods`.
