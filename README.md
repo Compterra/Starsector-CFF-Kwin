@@ -1,6 +1,6 @@
 # Kwin's Sector Industry Compilation
 
-Current version: `1.0.0` for Starsector `0.98a`.
+Current version: `1.0.1` for Starsector `0.98a`.
 
 A Starsector faction and content compilation for `0.98a`, centered on several corporate and postwar industrial groups:
 
