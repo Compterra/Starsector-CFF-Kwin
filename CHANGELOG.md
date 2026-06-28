@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.0.3
+
+- Fixed an Industrial Evolution compatibility crash during new-game loading by replacing the Charter Office parent row's direct `BaseIndustry` plugin with a concrete no-op Kwin industry plugin.
+- Rebuilt `KwinExpand.jar` with the new parent Charter Office plugin class.
+
 ## Version 1.0.1
 
 - Polished Corporate Charter Offices with unique lore, icons, and differentiated colony storefront identities.
