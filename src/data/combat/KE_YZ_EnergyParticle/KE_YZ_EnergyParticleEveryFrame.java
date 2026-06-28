@@ -23,31 +23,34 @@ public class KE_YZ_EnergyParticleEveryFrame extends BaseEveryFrameCombatPlugin {
         clock.advance(amount);
         if(clock.intervalElapsed()) {
             for (MissileAPI missile : engine.getMissiles()) {
-                if (missile.getProjectileSpecId().equals("KE_YZ_EnergyParticle_shell")||
-                        missile.getProjectileSpecId().equals("KE_YZ_MS_EnergyParticle_shell")||
-                           missile.getProjectileSpecId().equals("KE_YZ_MEM_EnergyParticle_shell")) {
-                    ShipAPI sourceship = missile.getSource() != null ? missile.getSource() : null;
-                    GuidedMissileAI ai = (GuidedMissileAI) missile.getAI();
-                    CombatEntityAPI target = ai.getTarget();
-                    List<KE_YZ_EnergyParticleUpgrade> upgrades = (List<KE_YZ_EnergyParticleUpgrade>) missile.getCustomData().get("KE_YZ_EnergyParticle_Upgrades");
-                    if (missile.getCustomData().containsKey(SOURCE_KEY)) {
-                        sourceship = (ShipAPI) missile.getCustomData().get(SOURCE_KEY);
-                    }
-                    if (!upgrades.isEmpty()) {
-                        for (KE_YZ_EnergyParticleUpgrade upgrade : upgrades) {
-//                            engine.addFloatingText(
-//                                    Global.getCombatEngine().getPlayerShip().getLocation(),
-//                                    "not null",
-//                                    10f,
-//                                    Color.WHITE,
-//                                    Global.getCombatEngine().getPlayerShip(),
-//                                    1f,
-//                                    1f
-//                            );
-                            upgrade.apply(amount, target, missile, engine);
-                        }
-                    }
+                String specId = missile.getProjectileSpecId();
+                if (!"KE_YZ_EnergyParticle_shell".equals(specId) &&
+                        !"KE_YZ_MS_EnergyParticle_shell".equals(specId) &&
+                        !"KE_YZ_MEM_EnergyParticle_shell".equals(specId)) {
+                    continue;
+                }
 
+                CombatEntityAPI target = null;
+                if (missile.getAI() instanceof GuidedMissileAI) {
+                    GuidedMissileAI ai = (GuidedMissileAI) missile.getAI();
+                    target = ai.getTarget();
+                }
+
+                Object upgradeData = missile.getCustomData().get("KE_YZ_EnergyParticle_Upgrades");
+                if (!(upgradeData instanceof List)) {
+                    continue;
+                }
+
+                List upgrades = (List) upgradeData;
+                if (upgrades.isEmpty()) {
+                    continue;
+                }
+
+                for (Object upgradeDataEntry : upgrades) {
+                    if (upgradeDataEntry instanceof KE_YZ_EnergyParticleUpgrade) {
+                        KE_YZ_EnergyParticleUpgrade upgrade = (KE_YZ_EnergyParticleUpgrade) upgradeDataEntry;
+                        upgrade.apply(amount, target, missile, engine);
+                    }
                 }
             }
         }

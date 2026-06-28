@@ -1,4 +1,4 @@
-# Kwin's Sector Industry Compilation
+﻿# Kwin's Sector Industry Compilation
 
 Current version: `1.0.1` for Starsector `0.98a`.
 
@@ -40,10 +40,10 @@ This repository contains a polished local maintenance build. Recent cleanup work
 
 ## Release Packaging
 
-The current Version Checker download URL points at the repository copy:
+The current Version Checker download URL points at the GitHub branch archive:
 
 ```text
-https://raw.githubusercontent.com/Compterra/Starsector-CFF-Kwin/main/Kwin.zip
+https://github.com/Compterra/Starsector-CFF-Kwin/archive/refs/heads/main.zip
 ```
 
-The zip should contain the top-level `Kwin` folder so users can extract it directly into `Starsector/mods`.
+The repository should not include a bundled `Kwin.zip`; release archives are produced from the clean repository contents.
