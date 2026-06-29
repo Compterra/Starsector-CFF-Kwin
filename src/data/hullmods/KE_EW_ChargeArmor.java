@@ -87,10 +87,10 @@ public class KE_EW_ChargeArmor extends BaseHullMod {
                 pad,
                 good,
                 " #","25%"," ");
-        tooltip.addPara(" %sS-mod%s: charge recovery improves to %s per second, and charge loss from hits is reduced.",
+        tooltip.addPara("S-mod effect: charge recovery improves to %s per second, and charge loss from hits is reduced.",
                 pad,
                 good,
-                " #","0.75%");
+                "0.75%");
     }
 
     public class KE_EW_ChargeArmorListener

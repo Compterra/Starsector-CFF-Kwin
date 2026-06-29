@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.0.4
+
+- Fixed S-mod tooltip formatting for Energy Swarm Core and Ion-Charged Armor so modspec tooltips render safely in salvage and market screens.
+- Rebuilt `KwinExpand.jar` with the tooltip formatting fixes.
 ## Version 1.0.3
 
 - Fixed an Industrial Evolution compatibility crash during new-game loading by replacing the Charter Office parent row's direct `BaseIndustry` plugin with a concrete no-op Kwin industry plugin.

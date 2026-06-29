@@ -239,9 +239,9 @@ public class KE_YZ_EnergySwarmCore extends BaseHullMod {
                 pad,
                 good,
                 " #","25/40/65/90");
-        tooltip.addPara(" %sS-mod%s: increases the maintained swarm limit by %s.",
+        tooltip.addPara("S-mod effect: increases the maintained swarm limit by %s.",
                 pad,
                 good,
-                " #", "20%");
+                "20%");
     }
 }
