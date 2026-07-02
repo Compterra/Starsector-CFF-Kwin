@@ -67,28 +67,16 @@ public class KE_TianHongComputer extends BaseHullMod {
                 "");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sNon-beam point defense range increased%s ;\n" +
-                        " %sLarge weapon base range increased%s ;\n"+
-                        " %sFighter preparation time reduced%s ;\n" +
-                        " %sDamage to locked targets increased%s ;\n" +
-                        " %sShip system charges increased%s ;",
-                pad,
-                good,
-                " #","50%",
-                " #","300",
-                " #","30%",
-                " #","100%",
-                " #","100%");
+        tooltip.addPara("Non-beam point defense range increased by %s.", pad, good, "50%");
+        tooltip.addPara("Large weapon base range increased by %s.", 3f, good, "300");
+        tooltip.addPara("Fighter preparation time reduced by %s.", 3f, good, "30%");
+        tooltip.addPara("Damage to locked targets increased by %s.", 3f, good, "100%");
+        tooltip.addPara("Ship system charges increased by %s.", 3f, good, "100%");
         tooltip.addPara("When operated outside its intended control architecture, only %s of the listed performance remains.",
                 pad,
                 bad,
                 "10%");
-//        tooltip.addPara(" %sManned fighters take increased damage%s ;\n" +
-//                        " %sManned fighters deal reduced damage%s .",
-//                pad,
-//                bad,
-//                " #","25%",
-//                " #","30%");
+
     }
     public static class KE_TianHong_RangeModifier implements WeaponBaseRangeModifier {
         private ShipAPI ship;

@@ -66,13 +66,8 @@ public class KE_TA_NSAirControl extends BaseHullMod {
                 pad, accent, "");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sImproved fighter combat range and maneuverability%s ;\n" +
-                        " %sFighter (non-bomber) damage to targets increased%s ;\n" +
-                        " %sBombers take less damage%s ;",
-                pad,
-                good,
-                " #", "30%",
-                " #", "15%",
-                " #", "15%");
+        tooltip.addPara("Fighter combat range and maneuverability improved by %s.", pad, good, "30%");
+        tooltip.addPara("Non-bomber fighter damage to targets increased by %s.", 3f, good, "15%");
+        tooltip.addPara("Bomber damage taken reduced by %s.", 3f, good, "15%");
     }
 }

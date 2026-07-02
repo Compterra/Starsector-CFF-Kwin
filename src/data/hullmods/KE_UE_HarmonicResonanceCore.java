@@ -126,9 +126,6 @@ public class KE_UE_HarmonicResonanceCore extends BaseHullMod {
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
         tooltip.addPara("The resonance navigation core links fleet navigation systems through a shared quantum network, improving fuel efficiency without sacrificing cruising speed.",
                 pad);
-        tooltip.addPara(" %sThe fuel consumption of the whole fleet is reduced according to the ship level.%s ;",
-                pad,
-                good,
-                " #","10%/15%/20%/25%");
+        tooltip.addPara("Fleet fuel consumption reduced by hull size: %s.", pad, good, "10%/15%/20%/25%");
     }
 }

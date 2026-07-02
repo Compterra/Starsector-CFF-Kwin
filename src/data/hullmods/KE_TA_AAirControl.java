@@ -84,9 +84,6 @@ public class KE_TA_AAirControl extends BaseHullMod {
                 pad, accent, "");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sAdditional fighter craft deployed%s ;",
-                pad,
-                good,
-                " #", "33%");
+        tooltip.addPara("Additional fighter craft deployed: %s.", pad, good, "33%");
     }
 }

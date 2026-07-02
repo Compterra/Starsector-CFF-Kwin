@@ -104,18 +104,10 @@ public class KE_EW_LuddicAirControl extends BaseHullMod {
                 "");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sManned wings with three or more craft deploy additional fighters.%s ;\n"+
-                        " %sReduced setup time%s ;",
-                pad,
-                good,
-                " #","50%",
-                " #","30%");
-        tooltip.addPara(" %sManned fighters take increased damage%s ;\n" +
-                        " %sManned fighters deal reduced damage%s .",
-                pad,
-                bad,
-                " #","25%",
-                " #","30%");
+        tooltip.addPara("Manned wings with three or more craft deploy %s additional fighters.", pad, good, "50%");
+        tooltip.addPara("Fighter replacement time reduced by %s.", 3f, good, "30%");
+        tooltip.addPara("Manned fighters take %s increased damage.", pad, bad, "25%");
+        tooltip.addPara("Manned fighters deal %s reduced damage.", 3f, bad, "30%");
     }
     public static class KE_EW_LuddicAirControlListener implements AdvanceableListener{
 

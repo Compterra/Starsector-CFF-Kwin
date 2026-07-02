@@ -18,6 +18,7 @@ import data.hullmods.KE_Delicacy_Fleet_Manager.KE_UE_Delicacy_FleetListener;
 import data.combat.ai.KE_YZ_ScimitarTorpedoAI;
 import data.combat.ai.KE_YZ_SunChaserAI;
 import org.apache.log4j.Logger;
+import org.dark.shaders.util.TextureData;
 
 public class KE_ModPlugin extends BaseModPlugin {
     private static final Logger log = Global.getLogger(KE_ModPlugin.class);
@@ -75,6 +76,7 @@ public class KE_ModPlugin extends BaseModPlugin {
 
     @Override
     public void onApplicationLoad() {
+        loadGraphicsLibTextureData();
         ItemEffectsRepo.ITEM_EFFECTS.put("KE_EB_CloneCore", new KE_EB_CloneCoreItemEffect("KE_EB_CloneCore"));
     }
 
@@ -92,6 +94,14 @@ public class KE_ModPlugin extends BaseModPlugin {
             if (!SharedData.getData().getPersonBountyEventData().getParticipatingFactions().contains(factionId)) {
                 SharedData.getData().getPersonBountyEventData().addParticipatingFaction(factionId);
             }
+        }
+    }
+
+    private static void loadGraphicsLibTextureData() {
+        try {
+            TextureData.readTextureDataCSVNoOverwrite("data/lights/kwin_texture_data.csv");
+        } catch (Exception ex) {
+            log.warn("Failed to load Kwin GraphicsLib texture data", ex);
         }
     }
 

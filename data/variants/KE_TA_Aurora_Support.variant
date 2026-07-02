@@ -3,13 +3,12 @@
   "hullId": "KE_TA_Aurora",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 24,
+  "fluxCapacitors": 14,
   "fluxVents": 23,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "expanded_deck_crew",
-    "missleracks",
     "reinforcedhull",
     "autorepair"
   ],

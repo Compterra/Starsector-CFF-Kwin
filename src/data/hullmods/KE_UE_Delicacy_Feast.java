@@ -50,30 +50,17 @@ public class KE_UE_Delicacy_Feast extends BaseHullMod {
                 pad, h,
                 "");
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara("A stabilized crew diet improves endurance, morale, and the practical rhythm of shipboard work.\n"+
-                        " %sCombat readiness degradation reduced%s ;\n"+
-                        " %sWeapon rate of fire increased%s ;\n"+
-                        " %sCrew survival rate increased%s ;\n"+
-                        " %sMaintenance efficiency improved%s ;\n"+
-                        " %sDefensive efficiency improved%s ;\n"+
-                        " %sMalfunction rate reduced%s ;",
-                pad,
-                good,
-                " #","20%",
-                " #","20%",
-                " #","35%",
-                " #","25%",
-                " #","12.5%",
-                " #","25%");
+        tooltip.addPara("A stabilized crew diet improves endurance, morale, and the practical rhythm of shipboard work.", pad);
+        tooltip.addPara("Combat readiness degradation reduced by %s.", 3f, good, "20%");
+        tooltip.addPara("Weapon rate of fire increased by %s.", 3f, good, "20%");
+        tooltip.addPara("Crew survival rate increased by %s.", 3f, good, "35%");
+        tooltip.addPara("Maintenance efficiency improved by %s.", 3f, good, "25%");
+        tooltip.addPara("Defensive efficiency improved by %s.", 3f, good, "12.5%");
+        tooltip.addPara("Malfunction rate reduced by %s.", 3f, good, "25%");
         tooltip.addSectionHeading("Additional Benefits",Misc.getTextColor(),f, Alignment.MID, pad);
-        tooltip.addPara("Higher catering tiers inherit lower-tier benefits and add their own refinements.\n"+
-                        " %sMaximum armor effectiveness increased%s ;\n"+
-                        " %sMinimum armor value increased%s ;\n"+
-                        " %sFlux dissipation increased%s ;",
-                pad,
-                good,
-                " #","5%",
-                " #","10%",
-                " #","5%");
+        tooltip.addPara("Higher catering tiers inherit lower-tier benefits and add their own refinements.", pad);
+        tooltip.addPara("Maximum armor effectiveness increased by %s.", 3f, good, "5%");
+        tooltip.addPara("Minimum armor value increased by %s.", 3f, good, "10%");
+        tooltip.addPara("Flux dissipation increased by %s.", 3f, good, "5%");
     }
 }

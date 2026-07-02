@@ -235,10 +235,7 @@ public class KE_YZ_EnergySwarmCore extends BaseHullMod {
                 "survivability");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sMaximum maintained energy swarms scale with hull size%s ;",
-                pad,
-                good,
-                " #","25/40/65/90");
+        tooltip.addPara("Maximum maintained energy swarms by hull size: %s.", pad, good, "25/40/65/90");
         tooltip.addPara("S-mod effect: increases the maintained swarm limit by %s.",
                 pad,
                 good,

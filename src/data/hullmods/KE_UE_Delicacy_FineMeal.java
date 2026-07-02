@@ -49,28 +49,16 @@ public class KE_UE_Delicacy_FineMeal extends BaseHullMod {
                 pad, h,
                 "");
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara("A stabilized crew diet improves endurance, morale, and the practical rhythm of shipboard work.\n"+
-                        " %sCombat readiness degradation reduced%s ;\n"+
-                        " %sWeapon rate of fire increased%s ;\n"+
-                        " %sCrew survival rate increased%s ;\n"+
-                        " %sMaintenance efficiency improved%s ;\n"+
-                        " %sDefensive efficiency improved%s ;\n"+
-                        " %sMalfunction rate reduced%s ;",
-                pad,
-                good,
-                " #","12.5%",
-                " #","15%",
-                " #","20%",
-                " #","17.5%",
-                " #","7.5%",
-                " #","20%");
+        tooltip.addPara("A stabilized crew diet improves endurance, morale, and the practical rhythm of shipboard work.", pad);
+        tooltip.addPara("Combat readiness degradation reduced by %s.", 3f, good, "12.5%");
+        tooltip.addPara("Weapon rate of fire increased by %s.", 3f, good, "15%");
+        tooltip.addPara("Crew survival rate increased by %s.", 3f, good, "20%");
+        tooltip.addPara("Maintenance efficiency improved by %s.", 3f, good, "17.5%");
+        tooltip.addPara("Defensive efficiency improved by %s.", 3f, good, "7.5%");
+        tooltip.addPara("Malfunction rate reduced by %s.", 3f, good, "20%");
         tooltip.addSectionHeading("Additional Benefits",Misc.getTextColor(),f, Alignment.MID, pad);
-        tooltip.addPara("Higher catering tiers inherit lower-tier benefits and add their own refinements.\n"+
-                        " %sMobility increased%s ;\n"+
-                        " %sDamage increased%s ;",
-                pad,
-                good,
-                " #","10%",
-                " #","5%");
+        tooltip.addPara("Higher catering tiers inherit lower-tier benefits and add their own refinements.", pad);
+        tooltip.addPara("Mobility increased by %s.", 3f, good, "10%");
+        tooltip.addPara("Damage increased by %s.", 3f, good, "5%");
     }
 }

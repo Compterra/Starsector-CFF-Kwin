@@ -66,17 +66,8 @@ public class KE_EntropyHullmod extends BaseHullMod {
                 "");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sFlux dissipation rises with current flux, up to%s ;\n" +
-                        " %sTime flow accelerates with current flux, up to%s ;",
-                pad,
-                good,
-                " #","100%",
-                " #","200%");
-//        tooltip.addPara(" %sManned fighters take increased damage%s ;\n" +
-//                        " %sManned fighters deal reduced damage%s .",
-//                pad,
-//                bad,
-//                " #","25%",
-//                " #","30%");
+        tooltip.addPara("Flux dissipation rises with current flux, up to %s.", pad, good, "100%");
+        tooltip.addPara("Time flow accelerates with current flux, up to %s.", 3f, good, "200%");
+
     }
 }

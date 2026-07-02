@@ -50,9 +50,6 @@ public class KE_TA_BionicAssistant extends BaseHullMod {
                 "Exodyne Biotechnology");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sImproved mobility%s ;",
-                pad,
-                good,
-                " #","10%");
+        tooltip.addPara("Fighter mobility improved by %s.", pad, good, "10%");
     }
 }

@@ -48,11 +48,7 @@ public class KE_EW_PlasmaGenerator extends BaseHullMod {
                 "Orbital Factory Manufacturing Company");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sShip flux grid optimization%s ;\n"+
-                        " %sEnergy weapon firing cost reduced%s ;",
-                pad,
-                good,
-                " #","15%",
-                " #","10%");
+        tooltip.addPara("Flux capacity and dissipation increased by %s.", pad, good, "15%");
+        tooltip.addPara("Energy weapon flux cost reduced by %s.", 3f, good, "10%");
     }
 }

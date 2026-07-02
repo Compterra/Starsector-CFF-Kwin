@@ -3,10 +3,13 @@ package data.combat.ai;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.util.Misc;
+import data.combat.util.KE_GraphicsLibEffects;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
 import org.lazywizard.lazylib.combat.AIUtils;
 import org.lwjgl.util.vector.Vector2f;
+
+import java.awt.Color;
 
 public class KE_YZ_SunChaserAI implements MissileAIPlugin , GuidedMissileAI{
 
@@ -17,6 +20,7 @@ public class KE_YZ_SunChaserAI implements MissileAIPlugin , GuidedMissileAI{
 
     // state variables
     private float timer = 0f;
+    private float visualTimer = 0f;
     private float checkInterval = 0.2f;
     private boolean launchPhase = true;
     private boolean cruiseMode = true; // Cruise mode
@@ -71,9 +75,11 @@ public class KE_YZ_SunChaserAI implements MissileAIPlugin , GuidedMissileAI{
         }
 
         timer += amount;
+        visualTimer += amount;
         velocityCorrectionTimer += amount;
 
         updateTarget();
+        addCruiseVisuals();
 
         if (target == null) {
             maintainCruiseSpeed();
@@ -138,6 +144,31 @@ public class KE_YZ_SunChaserAI implements MissileAIPlugin , GuidedMissileAI{
             missile.giveCommand(ShipCommand.ACCELERATE);
         }
     }
+
+    private void addCruiseVisuals() {
+        if (visualTimer < 0.12f) return;
+        visualTimer = 0f;
+        if (!KE_GraphicsLibEffects.isInViewport(engine, missile, 250f)) return;
+
+        Color color;
+        float size;
+        float intensity;
+        if (attackMode) {
+            color = new Color(255, 96, 80, 180);
+            size = 115f;
+            intensity = 0.65f;
+        } else if (cruiseMode) {
+            color = new Color(190, 45, 255, 120);
+            size = 80f;
+            intensity = 0.38f;
+        } else {
+            color = new Color(255, 150, 90, 150);
+            size = 95f;
+            intensity = 0.5f;
+        }
+        KE_GraphicsLibEffects.addProjectileLight(missile, color, size, intensity, 0.05f, 0.18f);
+    }
+
     public float AngleWithTarget(MissileAPI missile, CombatEntityAPI target) {
         Vector2f missileLoc = missile.getLocation();
         Vector2f targetLoc = target.getLocation();

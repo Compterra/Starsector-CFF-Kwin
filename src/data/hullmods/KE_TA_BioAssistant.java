@@ -55,11 +55,7 @@ public class KE_TA_BioAssistant extends BaseHullMod {
                 "Exodyne Biotechnology");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sImproved mobility%s ;\n"+
-                        " %sFighter performance improves again when tactical system is activated%s ;",
-                pad,
-                good,
-                " #","25%",
-                " #","10%");
+        tooltip.addPara("Fighter mobility improved by %s.", pad, good, "25%");
+        tooltip.addPara("While the tactical system is active, fighter performance improves by another %s.", 3f, good, "10%");
     }
 }

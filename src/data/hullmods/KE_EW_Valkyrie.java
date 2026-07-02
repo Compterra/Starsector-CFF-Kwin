@@ -50,11 +50,7 @@ public class KE_EW_Valkyrie extends BaseHullMod {
                 "Valkyrie Mercenary Group");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sImproved flux dissipation efficiency%s ;\n"+
-                        " %sright%sCauses increased damage%s ;",
-                pad,
-                good,
-                " #","30%",
-                " #","Cruiser/Battleship","20%");
+        tooltip.addPara("Flux dissipation increased by %s.", pad, good, "30%");
+        tooltip.addPara("Damage to cruisers and capital ships increased by %s.", 3f, good, "20%");
     }
 }

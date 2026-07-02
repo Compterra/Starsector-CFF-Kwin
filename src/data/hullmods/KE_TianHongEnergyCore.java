@@ -74,16 +74,10 @@ public class KE_TianHongEnergyCore extends BaseHullMod {
                 "");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sShip maneuverability improved%s ;\n"+
-                        " %sFlux capacity increased%s ;\n" +
-                        " %sFlux dissipation improved%s ;\n" +
-                        " %sEMP damage taken reduced%s ;",
-                pad,
-                good,
-                " #","50%",
-                " #","150%",
-                " #","300%",
-                " #","85%");
+        tooltip.addPara("Ship maneuverability improved by %s.", pad, good, "50%");
+        tooltip.addPara("Flux capacity increased by %s.", 3f, good, "150%");
+        tooltip.addPara("Flux dissipation increased by %s.", 3f, good, "300%");
+        tooltip.addPara("EMP damage taken reduced by %s.", 3f, good, "85%");
         tooltip.addPara("When operated outside its intended control architecture, only %s of the listed performance remains.",
                 pad,
                 bad,

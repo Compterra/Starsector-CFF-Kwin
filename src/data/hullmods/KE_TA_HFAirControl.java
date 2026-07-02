@@ -45,11 +45,7 @@ public class KE_TA_HFAirControl extends BaseHullMod {
                 pad, accent, "");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sFighter combat range increased%s ;\n" +
-                        " %sFighter replacement time reduced%s ;",
-                pad,
-                good,
-                " #", "50%",
-                " #", "50%");
+        tooltip.addPara("Fighter combat range increased by %s.", pad, good, "50%");
+        tooltip.addPara("Fighter replacement time reduced by %s.", 3f, good, "50%");
     }
 }

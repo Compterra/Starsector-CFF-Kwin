@@ -70,23 +70,19 @@ public class KE_EW_ChargeArmor extends BaseHullMod {
                 pads, g);
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sAdds an armor charge system%s ;",
-                pad,
-                h,
-                " #", " ");
-        tooltip.addPara(" %sAll defensive effects scale with current charge strength.%s If charge reaches 0, the system shuts down briefly before recovering.",
+        tooltip.addPara("Adds an armor charge system.", pad, h);
+        tooltip.addPara("All defensive effects scale with current charge strength. If charge reaches %s, the system shuts down briefly before recovering.",
                 pad,
                 bad,
-                " #", "");
-        tooltip.addPara(" %sAt full charge, EMP damage taken is reduced by %s and armor damage taken is reduced by %s.%s Charge recovery is %s per second.",
+                "0");
+        tooltip.addPara("At full charge, EMP damage taken is reduced by %s and armor damage taken is reduced by %s. Charge recovery is %s per second.",
                 pad,
                 good,
-                " #",
-                "75%","25%"," ","0.5%");
-        tooltip.addPara(" %sAt full charge, hull and armor hits deal %s less damage.%s Taking armor or hull hits drains charge.",
+                "75%", "25%", "0.5%");
+        tooltip.addPara("At full charge, hull and armor hits deal %s less damage. Taking armor or hull hits drains charge.",
                 pad,
                 good,
-                " #","25%"," ");
+                "25%");
         tooltip.addPara("S-mod effect: charge recovery improves to %s per second, and charge loss from hits is reduced.",
                 pad,
                 good,

@@ -49,26 +49,13 @@ public class KE_UE_Delicacy_BasicMeal extends BaseHullMod {
                 pad, h,
                 "");
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara("A stabilized crew diet improves endurance, morale, and the practical rhythm of shipboard work.\n"+
-                        " %sCombat readiness degradation reduced%s ;\n"+
-                        " %sWeapon rate of fire increased%s ;\n"+
-//                        " %sCrew survival rate increased%s ;\n"+
-                        " %sMaintenance efficiency improved%s ;\n"+
-//                        " %sImproved ship defense efficiency%s ;\n"+
-                        " %sMalfunction rate reduced%s ;",
-                pad,
-                good,
-                " #","5%",
-                " #","10%",
-//                " #","35%",
-                " #","10%",
-//                " #","12.5%",
-                " #","10%");
+        tooltip.addPara("A stabilized crew diet improves endurance, morale, and the practical rhythm of shipboard work.", pad);
+        tooltip.addPara("Combat readiness degradation reduced by %s.", 3f, good, "5%");
+        tooltip.addPara("Weapon rate of fire increased by %s.", 3f, good, "10%");
+        tooltip.addPara("Maintenance efficiency improved by %s.", 3f, good, "10%");
+        tooltip.addPara("Malfunction rate reduced by %s.", 3f, good, "10%");
         tooltip.addSectionHeading("Additional Benefits",Misc.getTextColor(),f, Alignment.MID, pad);
-        tooltip.addPara("Higher catering tiers inherit lower-tier benefits and add their own refinements.\n"+
-                        " %sThis tier has no additional benefit.",
-                pad,
-                bad,
-                " #");
+        tooltip.addPara("Higher catering tiers inherit lower-tier benefits and add their own refinements.", pad);
+        tooltip.addPara("This tier has no additional benefit.", 3f, bad);
     }
 }

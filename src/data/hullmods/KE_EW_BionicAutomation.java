@@ -49,11 +49,7 @@ public class KE_EW_BionicAutomation extends BaseHullMod {
                 "Exodyne");
 
         tooltip.addSectionHeading("Effect", Alignment.MID, pad);
-        tooltip.addPara(" %sIncreased ballistic weapon rate of fire%s ;\n"+
-                        " %sImproved ship turning maneuverability%s ;",
-                pad,
-                good,
-                " #","15%",
-                " #","10%");
+        tooltip.addPara("Ballistic weapon rate of fire increased by %s.", pad, good, "15%");
+        tooltip.addPara("Ship turning maneuverability improved by %s.", 3f, good, "10%");
     }
 }

@@ -1,0 +1,4 @@
+id,type,frame,magnitude,map,path
+KE_TA_Moonlight,ship,,1.5,normal,graphics/ships/KE_TA_Moonlight/KE_TA_Moonlight_normal.png
+KE_TA_Moonlight,ship,,,material,graphics/ships/KE_TA_Moonlight/KE_TA_Moonlight_material.png
+KE_TA_Moonlight,ship,,,surface,graphics/ships/KE_TA_Moonlight/KE_TA_Moonlight_surface.png
